@@ -1,170 +1,180 @@
-<!-- ====== HERO BANNER ====== -->
+<!-- ================= HERO ================= -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:000428,50:004e92,100:000428&height=260&section=header&text=Rahul%20Chaube&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=AI%20Researcher%20•%20LLM%20Builder%20•%20Startup%20Founder&descAlignY=55" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=280&color=0:1a1a2e,50:16213e,100:0f3460&text=Rahul%20Chaube&fontSize=50&fontColor=ffffff&fontAlignY=38&desc=Creative%20Intelligence%20•%20LLMs%20•%20AI%20Research%20•%20Founding%20Systems&descAlignY=60" />
 </p>
 
-<h3 align="center">
-Building foundational AI systems — from research papers to production-grade products
-</h3>
+<p align="center">
+  <b>Building Artistic Intelligence — where research, systems, and creativity converge.</b>
+</p>
 
 <p align="center">
-  <a href="https://github.com/Rahulchaube1">
-    <img src="https://img.shields.io/github/followers/Rahulchaube1?style=for-the-badge" />
-  </a>
-  <img src="https://img.shields.io/badge/Focus-LLMs%20%7C%20AI%20Research%20%7C%20Startups-blue?style=for-the-badge" />
-  <a href="https://buymeacoffee.com/rahulchaube">
-    <img src="https://img.shields.io/badge/Support-Open%20Research-yellow?style=for-the-badge" />
-  </a>
+  <a href="https://github.com/Rahulchaube1"><img src="https://img.shields.io/github/followers/Rahulchaube1?style=for-the-badge&logo=github" /></a>
+  <a href="https://www.artisticimpression.org/"><img src="https://img.shields.io/badge/AI%20Lab-Artistic%20Impression-blueviolet?style=for-the-badge" /></a>
+  <a href="https://buymeacoffee.com/rahulchaube"><img src="https://img.shields.io/badge/Support-Open%20Research-yellow?style=for-the-badge&logo=buymeacoffee" /></a>
 </p>
 
 ---
 
-## 🧬 Identity (No Fluff)
+## 🧬 Who I Am
 
-**Rahul Chaube (he/him)**  
-AI Researcher • LLM Architect • Startup Founder • Creative Technologist  
+👤 **Rahul Chaube (he/him)**  
+🧠 AI Researcher • LLM Architect • Startup Founder  
+🎨 Creative Technologist • Systems Thinker  
 
-I design and build **intelligent systems from first principles** — not wrappers, not hype tools.  
-My work spans **LLMs, multimodal AI, agentic systems, and applied research**, with a strong bias toward **open-source, reproducibility, and real-world deployment**.
+I don’t build tools.  
+I build **intelligence systems**.
 
-Old-school engineering discipline 🤝 next-gen AI.
+My work lives at the intersection of:
+- **Foundational AI research**
+- **Production-grade systems**
+- **Creative & artistic intelligence**
 
----
-
-## 🧠 Research Focus
-
-My core research interests:
-
-- **Large Language Models (LLMs)**  
-  - Training from scratch  
-  - Fine-tuning (SFT, RFT, Preference Learning)  
-  - Context scaling & long-context memory  
-  - Evaluation & hallucination control  
-
-- **Multimodal AI**
-  - Vision + Language
-  - Text-to-Image generation
-  - Context-aware visual reasoning
-
-- **Agentic Systems**
-  - Tool-using agents
-  - Autonomous workflows
-  - Memory-driven reasoning loops
-
-- **Applied AI Systems**
-  - Industrial inspection
-  - Education
-  - Agriculture
-  - Human–AI interaction
+> Old-school engineering discipline × forward-looking AI vision.
 
 ---
 
-## 🔬 Active Research & Labs
+## 🧠 What I Mean by *Artistic Intelligence*
 
-### 🧪 **Artistic Impression (AI Research Lab)**
-Founder & Lead Researcher  
+**Artistic Intelligence** is not “AI art”.
 
-A research-first lab focused on:
-- Experimental AI architectures
-- Creative intelligence
-- Open LLM research
-- Product-grade AI systems
+It is:
+- Intelligence that **understands context**
+- Systems that **reason, adapt, and create**
+- AI that respects **human aesthetics & intent**
+- Research that turns into **real products**
 
-> “Experiment fast. Publish openly. Ship responsibly.”
-
----
-
-## 🧠 Flagship AI Systems
-
-### 🔹 **EverestQ**
-> Nepal’s first **fully self-developed LLM**, trained from scratch on open-source data.  
-No closed APIs. No shortcuts.
-
-- Custom tokenizer & training pipeline  
-- Multi-phase roadmap (Phase 4 → Sept 2025)  
-- Research → deployment focused
+🏛️ **AI Research Lab:**  
+👉 https://www.artisticimpression.org/
 
 ---
 
-### 🔹 **omniR**
-> Vision for a **universal open-source intelligence system**
+## 🔬 Research Axes
 
-- Multimodal reasoning
-- Voice-driven interaction
-- Context-aware memory
-- Built for accessibility & scale
+🧩 **Large Language Models**
+- From-scratch training pipelines  
+- Tokenization & long-context scaling  
+- SFT • RFT • Preference Learning  
+- Hallucination control & evaluation  
+
+👁️ **Multimodal Intelligence**
+- Vision–Language reasoning  
+- Text → Image generation  
+- Context-aware perception  
+
+🤖 **Agentic AI**
+- Tool-using agents  
+- Memory-driven reasoning loops  
+- Autonomous task execution  
+
+🏗️ **Applied Intelligence**
+- Industrial AI
+- Education AI
+- Agriculture AI
+- Human–AI interaction systems
 
 ---
 
-### 🔹 **RGenAI / PhotoR+**
-> Text-to-image generation models trained on realistic data distributions.
+## 🚀 Flagship Systems
 
-- Diffusion-based pipelines
-- Prompt control & realism tuning
-- Open research approach
+### 🏔️ EverestQ
+> Nepal’s first **fully self-developed LLM**
+
+- Trained from scratch on open data  
+- Custom tokenizer & training infra  
+- Multi-phase roadmap → Phase 4 (2025)  
+- Research-first, deployment-ready  
+
+---
+
+### 🌐 omniR
+> Universal open-source intelligence system
+
+- Multimodal reasoning  
+- Voice-driven interaction  
+- Contextual memory  
+- Designed for accessibility & scale  
+
+---
+
+### 🎨 RGenAI / PhotoR+
+> Realistic text-to-image generation models
+
+- Diffusion pipelines  
+- Prompt control & realism tuning  
+- Open research & reproducibility  
+
+---
+
+## 🛠️ Tech Stack — **Battle-Tested & Visualized**
+
+### 🧠 Core Languages
+<p>
+  <img src="https://skillicons.dev/icons?i=kotlin,python,java,javascript,cpp&theme=dark" />
+</p>
+
+- **Kotlin ⭐** — primary language for system design & apps  
+- Python — AI research & experimentation  
+- Java — backend & structured systems  
+- JavaScript — product & frontend logic  
+- C / C++ — performance-critical components  
+
+---
+
+### 🤖 AI / ML Arsenal
+<p>
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow&theme=dark" />
+</p>
+
+- **PyTorch** — research & custom training loops  
+- **TensorFlow** — production ML pipelines  
+- **CUDA** — GPU-level experimentation (research usage)  
+- **HuggingFace** — internals, tokenizers, datasets (not wrappers)
+
+---
+
+### 🧩 Systems & Infrastructure
+<p>
+  <img src="https://skillicons.dev/icons?i=docker,linux,githubactions&theme=dark" />
+</p>
+
+- Docker — reproducible environments  
+- Linux (Ubuntu) — primary dev OS  
+- GitHub Actions — CI/CD & automation  
+- Google Colab / **DGX A100** — large-scale training
+
+---
+
+### 🎨 Product & Interaction Layer
+<p>
+  <img src="https://skillicons.dev/icons?i=react,html,css&theme=dark" />
+</p>
+
+- React — AI product interfaces  
+- Web APIs — system communication  
+- 🎙️ Voice Interfaces — speech-driven AI UX  
 
 ---
 
 ## 🏭 Applied AI Products
 
-- **CAVI-X** — Context-Aware Visual Inspector (Industrial AI)
-- **Flick AI** — AI-powered learning platform
-- **AgroSathi** — AI for agriculture
-- **CampusConnect** — Smart campus ecosystem
-- **Recono** — Voice & speech-based recognition system
+- 🏭 **CAVI-X** — Context-Aware Visual Inspector  
+- 🎓 **Flick AI** — AI-powered learning platform  
+- 🌱 **AgroSathi** — Agriculture intelligence  
+- 🏫 **CampusConnect** — Smart campus ecosystem  
+- 🎤 **Recono** — Voice & speech recognition system  
 
 ---
 
-## 🏆 Research, Competitions & Recognition
+## 🏆 Recognition & Research Exposure
 
-- 🧠 **ICPC (LLM Training Problem)**
-- ⚡ **HackAI by NVIDIA**
-- 🚀 **Red Bull Basement — Top 15**
-- 📄 **IEEE International Conference (Deep Learning)**
-- 🏅 Social Activist of the Year (2022)
-
----
-
-## 🛠️ Tech Stack (Battle-Tested)
-
-**Languages**
-- Kotlin ⭐
-- Python
-- Java
-- JavaScript
-- C/C++
-
-**AI & ML**
-- PyTorch
-- TensorFlow
-- CUDA (research-level usage)
-- HuggingFace (internals, not just APIs)
-
-**Systems & Infra**
-- Docker
-- Linux (Ubuntu)
-- GitHub Actions
-- Google Colab / DGX A100
-
-**Frontend / Product**
-- React
-- Web APIs
-- Voice Interfaces
+🏅 ICPC (LLM Training Problem)  
+⚡ HackAI by NVIDIA  
+🚀 Red Bull Basement — Top 15  
+📄 IEEE International Conference (Deep Learning)  
 
 ---
 
-## 📌 Philosophy
-
-- Research before hype  
-- Open-source over black boxes  
-- Fundamentals over shortcuts  
-- Long-term vision over quick wins  
-
-I don’t chase trends — I build **infrastructure-level intelligence**.
-
----
-
-## 📊 GitHub Activity
+## 📊 Open-Source Activity
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Rahulchaube1&show_icons=true&theme=tokyonight&hide_border=true" />
@@ -176,15 +186,24 @@ I don’t chase trends — I build **infrastructure-level intelligence**.
 
 ---
 
+## 🧭 Philosophy
+
+- Research before hype  
+- Open systems over black boxes  
+- Design matters  
+- Intelligence should feel **human**
+
+---
+
 ## 🤝 Collaboration
 
-Open to:
-- Serious AI research collaborations  
-- LLM system co-development  
-- Startup & infra-level discussions  
+I collaborate on:
+- LLM research
+- Creative AI systems
+- Deep-tech startups
+- Open-source intelligence infra  
 
-If you’re here just to “try AI” — this isn’t it.  
-If you’re here to **build intelligence** — welcome.
+If you’re serious about **building intelligence**, welcome.
 
 ---
 
@@ -193,17 +212,17 @@ If you’re here to **build intelligence** — welcome.
 Your support directly funds:
 - GPUs
 - Training experiments
+- Infrastructure
 - Open publications
-- Infrastructure costs
 
 ☕ https://buymeacoffee.com/rahulchaube
 
 ---
 
 <p align="center">
-<b>Research • Build • Publish • Scale</b>
+<b>Creative Intelligence • Research Systems • Build the Future</b>
 </p>
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:000428,100:004e92&height=90&section=footer" />
+  <img src="https://capsule-render.vercel.app/api?type=rect&height=90&color=0:0f3460,100:1a1a2e&section=footer" />
 </p>
