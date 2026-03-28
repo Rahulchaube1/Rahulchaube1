@@ -134,11 +134,15 @@ I build **intelligence systems**.
 
 ---
 
-## 📊 Language & Repo Insights
+## 🧭 Developer Activity Radar
 
 <p align="center">
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Rahulchaube1&theme=tokyonight" />
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Rahulchaube1&theme=tokyonight" />
+</p>
+
+<p align="center">
+  <img src="https://github-contributor-stats.vercel.app/api?username=Rahulchaube1&limit=5&theme=tokyonight&combine_all_yearly_contributions=true" />
 </p>
 
 ---
