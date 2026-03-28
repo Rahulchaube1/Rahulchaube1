@@ -24,164 +24,121 @@
 I don’t build tools.  
 I build **intelligence systems**.
 
-My work lives at the intersection of:
-- **Foundational AI research**
-- **Production-grade systems**
-- **Creative & artistic intelligence**
-
 > Old-school engineering discipline × forward-looking AI vision.
 
 ---
 
-## 🧠 What I Mean by *Artistic Intelligence*
+## 🧠 Artistic Intelligence
 
-**Artistic Intelligence** is not “AI art”.
+- Context-aware reasoning systems  
+- Adaptive & generative intelligence  
+- Human-aligned AI design  
+- Research → Product pipeline  
 
-It is:
-- Intelligence that **understands context**
-- Systems that **reason, adapt, and create**
-- AI that respects **human aesthetics & intent**
-- Research that turns into **real products**
-
-🏛️ **AI Research Lab:**  
-👉 https://www.artisticimpression.org/
+🏛️ https://www.artisticimpression.org/
 
 ---
 
 ## 🔬 Research Axes
 
-🧩 **Large Language Models**
-- From-scratch training pipelines  
-- Tokenization & long-context scaling  
-- SFT • RFT • Preference Learning  
-- Hallucination control & evaluation  
-
-👁️ **Multimodal Intelligence**
-- Vision–Language reasoning  
-- Text → Image generation  
-- Context-aware perception  
-
-🤖 **Agentic AI**
-- Tool-using agents  
-- Memory-driven reasoning loops  
-- Autonomous task execution  
-
-🏗️ **Applied Intelligence**
-- Industrial AI
-- Education AI
-- Agriculture AI
-- Human–AI interaction systems
+- 🧩 LLMs (training, scaling, alignment)  
+- 👁️ Multimodal AI (vision + language)  
+- 🤖 Agentic Systems (autonomous reasoning)  
+- 🏗️ Applied AI (industry, education, agriculture)  
 
 ---
 
 ## 🚀 Flagship Systems
 
 ### 🏔️ EverestQ
-> Nepal’s first **fully self-developed LLM**
-
-- Trained from scratch on open data  
-- Custom tokenizer & training infra  
-- Multi-phase roadmap → Phase 4 (2025)  
-- Research-first, deployment-ready  
-
----
+- Fully self-developed LLM  
+- Custom tokenizer + infra  
+- Multi-phase roadmap (→ 2025)
 
 ### 🌐 omniR
-> Universal open-source intelligence system
-
-- Multimodal reasoning  
-- Voice-driven interaction  
-- Contextual memory  
-- Designed for accessibility & scale  
-
----
+- Multimodal reasoning system  
+- Memory + voice-driven AI  
 
 ### 🎨 RGenAI / PhotoR+
-> Realistic text-to-image generation models
-
-- Diffusion pipelines  
-- Prompt control & realism tuning  
-- Open research & reproducibility  
+- Diffusion-based generation  
+- Realism-focused pipelines  
 
 ---
 
-## 🛠️ Tech Stack — **Battle-Tested & Visualized**
+## 🛠️ Tech Stack
 
-### 🧠 Core Languages
-<p>
+### Languages
+<p align="center">
   <img src="https://skillicons.dev/icons?i=kotlin,python,java,javascript,cpp&theme=dark" />
 </p>
 
-- **Kotlin ⭐** — primary language for system design & apps  
-- Python — AI research & experimentation  
-- Java — backend & structured systems  
-- JavaScript — product & frontend logic  
-- C / C++ — performance-critical components  
-
----
-
-### 🤖 AI / ML Arsenal
-<p>
+### AI Stack
+<p align="center">
   <img src="https://skillicons.dev/icons?i=pytorch,tensorflow&theme=dark" />
 </p>
 
-- **PyTorch** — research & custom training loops  
-- **TensorFlow** — production ML pipelines  
-- **CUDA** — GPU-level experimentation (research usage)  
-- **HuggingFace** — internals, tokenizers, datasets (not wrappers)
-
----
-
-### 🧩 Systems & Infrastructure
-<p>
+### Infra
+<p align="center">
   <img src="https://skillicons.dev/icons?i=docker,linux,githubactions&theme=dark" />
 </p>
 
-- Docker — reproducible environments  
-- Linux (Ubuntu) — primary dev OS  
-- GitHub Actions — CI/CD & automation  
-- Google Colab / **DGX A100** — large-scale training
+---
+
+## 🏭 Systems Built
+
+- CAVI-X — Visual Inspector AI  
+- Flick AI — Learning Platform  
+- AgroSathi — Agri Intelligence  
+- CampusConnect — Smart Campus  
+- Recono — Voice Recognition  
 
 ---
 
-### 🎨 Product & Interaction Layer
-<p>
-  <img src="https://skillicons.dev/icons?i=react,html,css&theme=dark" />
-</p>
+## 🏆 Recognition
 
-- React — AI product interfaces  
-- Web APIs — system communication  
-- 🎙️ Voice Interfaces — speech-driven AI UX  
+- ICPC (LLM Problem)  
+- NVIDIA HackAI  
+- Red Bull Basement (Top 15)  
+- IEEE Conference  
 
 ---
 
-## 🏭 Applied AI Products
+# 📊 Intelligence Metrics (Proof > Claims)
 
-- 🏭 **CAVI-X** — Context-Aware Visual Inspector  
-- 🎓 **Flick AI** — AI-powered learning platform  
-- 🌱 **AgroSathi** — Agriculture intelligence  
-- 🏫 **CampusConnect** — Smart campus ecosystem  
-- 🎤 **Recono** — Voice & speech recognition system  
-
----
-
-## 🏆 Recognition & Research Exposure
-
-🏅 ICPC (LLM Training Problem)  
-⚡ HackAI by NVIDIA  
-🚀 Red Bull Basement — Top 15  
-📄 IEEE International Conference (Deep Learning)  
-
----
-
-## 📊 Open-Source Activity
-
+## ⚡ Core GitHub Stats
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=Rahulchaube1&show_icons=true&theme=tokyonight&hide_border=true" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rahulchaube1&theme=tokyonight&hide_border=true" />
+</p>
+
+---
+
+## 📈 Contribution Intelligence
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Rahulchaube1&theme=tokyonight" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Rahulchaube1&theme=tokyonight&hide_border=true" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Rahulchaube1&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Rahulchaube1&theme=tokyonight&utcOffset=5.5" />
+</p>
+
+---
+
+## 🔥 Contribution Heatmap
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=Rahulchaube1&theme=tokyo-night&hide_border=true&area=true" />
+</p>
+
+---
+
+## 📊 Language & Repo Insights
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Rahulchaube1&theme=tokyonight" />
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=Rahulchaube1&theme=tokyonight" />
 </p>
 
 ---
@@ -189,33 +146,25 @@ It is:
 ## 🧭 Philosophy
 
 - Research before hype  
-- Open systems over black boxes  
+- Open > closed systems  
 - Design matters  
-- Intelligence should feel **human**
+- Intelligence should feel human  
 
 ---
 
 ## 🤝 Collaboration
 
-I collaborate on:
-- LLM research
-- Creative AI systems
-- Deep-tech startups
-- Open-source intelligence infra  
-
-If you’re serious about **building intelligence**, welcome.
+Open to:
+- LLM research  
+- AI systems  
+- Deep-tech startups  
+- Open-source infra  
 
 ---
 
-## ❤️ Support Open Research
+## ❤️ Support
 
-Your support directly funds:
-- GPUs
-- Training experiments
-- Infrastructure
-- Open publications
-
-☕ https://buymeacoffee.com/rahulchaube
+☕ https://buymeacoffee.com/rahulchaube  
 
 ---
 
