@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 1080" width="1100" height="1080" font-family="Consolas, Menlo, Monaco, 'SF Pro Mono', 'Cascadia Code', monospace" font-size="13px">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 1340" width="1100" height="1340" font-family="Consolas, Menlo, Monaco, 'SF Pro Mono', 'Cascadia Code', monospace" font-size="13px">
 <style>
 .bg { fill: #F6F8FA; }
 .titlebar { fill: #EAEFF4; stroke: #D0D7DE; stroke-width: 1; }
@@ -14,16 +14,22 @@
 .dim { fill: #AFB8C1; }
 .dim-text { fill: #57606A; }
 .text { fill: #24292F; }
+.white { fill: #24292F; }
 .bold { font-weight: bold; }
 .glow-low { fill: #9be9a8; }
 .glow-mid { fill: #40c463; }
 .glow-high { fill: #216e39; }
+.art-c1 { fill: #0969DA; }
+.art-c2 { fill: #0550AE; }
+.art-c3 { fill: #218BFF; }
+.art-c4 { fill: #9A6700; }
+.art-c5 { fill: #BF4B00; }
 text, tspan { white-space: pre; }
 </style>
 
 <!-- Background and Window Frame -->
-<rect width="1100" height="1080" rx="16" class="bg"/>
-<rect x="0.5" y="0.5" width="1099" height="1079" rx="16" class="border" stroke="#0969DA" stroke-opacity="0.3"/>
+<rect width="1100" height="1340" rx="16" class="bg"/>
+<rect x="0.5" y="0.5" width="1099" height="1339" rx="16" class="border" stroke="#0969DA" stroke-opacity="0.3"/>
 
 <!-- Terminal Header Bar -->
 <rect x="1" y="1" width="1098" height="42" rx="16" class="titlebar"/>
@@ -45,116 +51,154 @@ text, tspan { white-space: pre; }
 
 <!-- ================= LEFT COLUMN ================= -->
 
-<!-- Panel 2: Commit Activity & Contribution Graph -->
-<rect x="30" y="95" width="495" height="440" rx="8" class="box-border"/>
-<text x="45" y="120" class="purple bold" font-size="12.5px">┌─ COMMIT ACTIVITY &amp; CONTRIBUTION GRAPH ──────────────────────┐</text>
-<text x="45" y="145" class="text">
-<tspan x="45" y="145" class="dim-text">Activity Heatmap (Last 26 Weeks / Mon–Sun):</tspan>
-<tspan x="45" y="168" class="dim-text">Mon </tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒▒▒</tspan><tspan class="glow-high">██████</tspan>
-<tspan x="45" y="186" class="dim-text">Tue </tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒▒</tspan><tspan class="glow-high">██████</tspan>
-<tspan x="45" y="204" class="dim-text">Wed </tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒▒▒</tspan><tspan class="glow-high">██████</tspan>
-<tspan x="45" y="222" class="dim-text">Thu </tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒▒▒</tspan><tspan class="glow-high">██████</tspan>
-<tspan x="45" y="240" class="dim-text">Fri </tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒▒▒</tspan><tspan class="glow-high">██████</tspan>
-<tspan x="45" y="258" class="dim-text">Sat </tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒▒▒</tspan><tspan class="glow-high">██████</tspan>
-<tspan x="45" y="276" class="dim-text">Sun </tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒▒▒</tspan><tspan class="glow-high">██████</tspan>
-<tspan x="45" y="298" class="dim">────────────────────────────────────────────────────────────</tspan>
-<tspan x="45" y="320" class="dim-text">Total Commits: </tspan><tspan class="green bold">1,024+</tspan>  <tspan class="dim">│</tspan>  <tspan class="dim-text">Streak: </tspan><tspan class="cyan bold">Active</tspan>  <tspan class="dim">│</tspan>  <tspan class="dim-text">Peak: </tspan><tspan class="orange bold">2026</tspan>
-<tspan x="45" y="338" class="dim">────────────────────────────────────────────────────────────</tspan>
-<tspan x="45" y="358" class="dim-text">Language Breakdown:</tspan>
-<tspan x="45" y="378"><tspan class="orange bold">Blyx   </tspan><tspan class="orange">██████</tspan><tspan class="dim">░░░░</tspan>  <tspan class="dim-text">38%</tspan></tspan>
-<tspan x="45" y="396"><tspan class="cyan bold">Rust   </tspan><tspan class="cyan">████</tspan><tspan class="dim">░░░░░░</tspan>  <tspan class="dim-text">24%</tspan></tspan>
-<tspan x="45" y="414"><tspan class="yellow bold">Python </tspan><tspan class="yellow">███</tspan><tspan class="dim">░░░░░░░</tspan>  <tspan class="dim-text">18%</tspan></tspan>
-<tspan x="45" y="432"><tspan class="purple bold">Go     </tspan><tspan class="purple">██</tspan><tspan class="dim">░░░░░░░░</tspan>  <tspan class="dim-text">12%</tspan></tspan>
-<tspan x="45" y="450"><tspan class="text bold">Other  </tspan><tspan class="text">█</tspan><tspan class="dim">░░░░░░░░░</tspan>   <tspan class="dim-text">8%</tspan></tspan>
+<!-- ADD PANEL 1: Operator ASCII Portrait -->
+<rect x="30" y="95" width="495" height="465" rx="8" class="box-border"/>
+<text x="45" y="120" class="purple bold" font-size="12.5px">┌─ OPERATOR ASCII PORTRAIT ─────────────────────────────────┐</text>
+<text x="45" y="145" font-size="13px">
+<tspan x="100" y="148" class="art-c1">               .---::::---.        </tspan>
+<tspan x="100" y="166" class="art-c1">           .*%@@@@@@@@@@@@@@%*.    </tspan>
+<tspan x="100" y="184" class="art-c1">         .%@@@@@@@@@@@@@@@@@@@@%.  </tspan>
+<tspan x="100" y="202" class="art-c2">        =@@@@@@@@@@@@@@@@@@@@@@@@= </tspan>
+<tspan x="100" y="220" class="art-c2">       .@@@@@@@@@@@@@@@@@@@@@@@@@@.</tspan>
+<tspan x="100" y="238" class="art-c2">       *@@@@@@@@@@@@@@@@@@@@@@@@@@*</tspan>
+<tspan x="100" y="256" class="art-c3">       %@@@@@@@@@@@@@@@@@@@@@@@@@@%</tspan>
+<tspan x="100" y="274" class="art-c3">       =@@@@@@@@@@@@@@@@@@@@@@@@@@=</tspan>
+<tspan x="100" y="292" class="art-c3">        %@@@@@@@@@@@@@@@@@@@@@@@@% </tspan>
+<tspan x="100" y="310" class="art-c4">        .@@@@#*==---===*#@@@@@@@@. </tspan>
+<tspan x="100" y="328" class="art-c4">         -@%++*+=:---:=+*++%@@@@-  </tspan>
+<tspan x="100" y="346" class="art-c4">          :=+**#%#+:+%%@%%*+===:   </tspan>
+<tspan x="100" y="364" class="art-c4">          :---:--=+=:--::--::--:   </tspan>
+<tspan x="100" y="382" class="art-c5">           -=-...-::=*=--=**=-.    </tspan>
+<tspan x="100" y="400" class="art-c5">             +:-+***#%%#+#*+:      </tspan>
+<tspan x="100" y="418" class="art-c5">              +++::=++**%@*        </tspan>
+<tspan x="100" y="436" class="art-c5">              -**++###%@@+-:       </tspan>
+<tspan x="100" y="454" class="art-c5">          -=#% .=*#%@@%+- *@@*:.   </tspan>
+<tspan x="100" y="472" class="art-c5">    .-=#@@@@@@.   :==-   :@@@@@@@# </tspan>
+<tspan x="100" y="490" class="art-c5">+#%@@@@@@@@@@@@= .+@@@@: .@@@@@@@@@</tspan>
 </text>
-<text x="45" y="515" class="dim" font-size="12.5px">└─────────────────────────────────────────────────────────────┘</text>
+<text x="277" y="525" text-anchor="middle" class="orange bold" font-size="13px">rahul@chaube  ──  Founder × 6</text>
+<text x="45" y="550" class="dim" font-size="12.5px">└───────────────────────────────────────────────────────────┘</text>
+
+<!-- Commit Activity & Contribution Graph -->
+<rect x="30" y="575" width="495" height="395" rx="8" class="box-border"/>
+<text x="45" y="600" class="purple bold" font-size="12.5px">┌─ COMMIT ACTIVITY &amp; CONTRIBUTION GRAPH ──────────────────────┐</text>
+<text x="45" y="625" class="text">
+<tspan x="45" y="625" class="dim-text">Activity Heatmap (Last 26 Weeks / Mon–Sun):</tspan>
+<tspan x="45" y="648" class="dim-text">Mon </tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒▒▒</tspan><tspan class="glow-high">██████</tspan>
+<tspan x="45" y="666" class="dim-text">Tue </tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒▒</tspan><tspan class="glow-high">██████</tspan>
+<tspan x="45" y="684" class="dim-text">Wed </tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒▒▒</tspan><tspan class="glow-high">██████</tspan>
+<tspan x="45" y="702" class="dim-text">Thu </tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒▒▒</tspan><tspan class="glow-high">██████</tspan>
+<tspan x="45" y="720" class="dim-text">Fri </tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒▒▒</tspan><tspan class="glow-high">██████</tspan>
+<tspan x="45" y="738" class="dim-text">Sat </tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒▒▒</tspan><tspan class="glow-high">██████</tspan>
+<tspan x="45" y="756" class="dim-text">Sun </tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒▒▒</tspan><tspan class="glow-high">██████</tspan>
+<tspan x="45" y="776" class="dim">────────────────────────────────────────────────────────────</tspan>
+<tspan x="45" y="796" class="dim-text">Total Commits: </tspan><tspan class="green bold">1,024+</tspan>  <tspan class="dim">│</tspan>  <tspan class="dim-text">Streak: </tspan><tspan class="cyan bold">Active</tspan>  <tspan class="dim">│</tspan>  <tspan class="dim-text">Peak: </tspan><tspan class="orange bold">2026</tspan>
+<tspan x="45" y="814" class="dim">────────────────────────────────────────────────────────────</tspan>
+<tspan x="45" y="834" class="dim-text">Language Breakdown:</tspan>
+<tspan x="45" y="854"><tspan class="orange bold">Blyx   </tspan><tspan class="orange">██████</tspan><tspan class="dim">░░░░</tspan>  <tspan class="dim-text">38%</tspan></tspan>
+<tspan x="45" y="872"><tspan class="cyan bold">Rust   </tspan><tspan class="cyan">████</tspan><tspan class="dim">░░░░░░</tspan>  <tspan class="dim-text">24%</tspan></tspan>
+<tspan x="45" y="890"><tspan class="yellow bold">Python </tspan><tspan class="yellow">███</tspan><tspan class="dim">░░░░░░░</tspan>  <tspan class="dim-text">18%</tspan></tspan>
+<tspan x="45" y="908"><tspan class="purple bold">Go     </tspan><tspan class="purple">██</tspan><tspan class="dim">░░░░░░░░</tspan>  <tspan class="dim-text">12%</tspan></tspan>
+<tspan x="45" y="926"><tspan class="text bold">Other  </tspan><tspan class="text">█</tspan><tspan class="dim">░░░░░░░░░</tspan>   <tspan class="dim-text">8%</tspan></tspan>
+</text>
+<text x="45" y="955" class="dim" font-size="12.5px">└─────────────────────────────────────────────────────────────┘</text>
 
 <!-- Terminal Session Panel -->
-<rect x="30" y="550" width="495" height="505" rx="8" class="box-border"/>
-<text x="45" y="575" class="purple bold" font-size="12.5px">┌─ TERMINAL SESSION ──────────────────────────────────────────┐</text>
-<text x="45" y="605" class="text">
-<tspan x="45" y="605" class="orange bold">&gt; </tspan><tspan class="cyan">whoami</tspan>
-<tspan x="45" y="630" class="text">Rahul Chaube — Founder × 6 | Systems Builder | LLM Researcher</tspan>
+<rect x="30" y="985" width="495" height="325" rx="8" class="box-border"/>
+<text x="45" y="1010" class="purple bold" font-size="12.5px">┌─ TERMINAL SESSION ──────────────────────────────────────────┐</text>
+<text x="45" y="1035" class="text">
+<tspan x="45" y="1035" class="orange bold">&gt; </tspan><tspan class="cyan">whoami</tspan>
+<tspan x="45" y="1055" class="text">Rahul Chaube — Founder × 6 | Systems Builder | LLM Researcher</tspan>
 
-<tspan x="45" y="675" class="orange bold">&gt; </tspan><tspan class="cyan">cat mission.txt</tspan>
-<tspan x="45" y="700" class="yellow">Low-resource language AI. Systems programming. Humanoid robotics.</tspan>
+<tspan x="45" y="1085" class="orange bold">&gt; </tspan><tspan class="cyan">cat mission.txt</tspan>
+<tspan x="45" y="1105" class="yellow">Low-resource language AI. Systems programming. Humanoid robotics.</tspan>
 
-<tspan x="45" y="745" class="orange bold">&gt; </tspan><tspan class="cyan">./deploy --all-ventures</tspan>
-<tspan x="45" y="770" class="dim-text">Deploying... </tspan><tspan class="green">[████████████████████]</tspan><tspan class="dim"> 100%</tspan>
-<tspan x="45" y="795" class="green bold">All systems nominal. Future compiled successfully. </tspan><tspan class="purple bold">[BLYX]</tspan>
+<tspan x="45" y="1135" class="orange bold">&gt; </tspan><tspan class="cyan">./deploy --all-ventures</tspan>
+<tspan x="45" y="1155" class="dim-text">Deploying... </tspan><tspan class="green">[████████████████████]</tspan><tspan class="dim"> 100%</tspan>
+<tspan x="45" y="1175" class="green bold">All systems nominal. Future compiled successfully. </tspan><tspan class="purple bold">[BLYX]</tspan>
 
-<tspan x="45" y="855" class="dim-text">Binary: </tspan><tspan class="dim">01000010 01101100 01111001 01111000</tspan>
-<tspan x="45" y="890" class="orange bold">&gt; Launching future... </tspan><tspan class="cyan">█</tspan>
+<tspan x="45" y="1215" class="dim-text">Binary: </tspan><tspan class="dim">01000010 01101100 01111001 01111000</tspan>
+<tspan x="45" y="1245" class="orange bold">&gt; Launching future... </tspan><tspan class="cyan">█</tspan>
 </text>
-<text x="45" y="1035" class="dim" font-size="12.5px">└─────────────────────────────────────────────────────────────┘</text>
+<text x="45" y="1295" class="dim" font-size="12.5px">└─────────────────────────────────────────────────────────────┘</text>
 
 <!-- ================= RIGHT COLUMN ================= -->
 
-<!-- Identity & Current Build Panel -->
-<rect x="545" y="95" width="525" height="195" rx="8" class="box-border"/>
-<text x="560" y="120" class="purple bold" font-size="12.5px">┌─ IDENTITY &amp; CURRENT BUILD ──────────────────────────────────┐</text>
-<text x="560" y="145" class="text">
-<tspan x="560" y="145" class="cyan bold">rahul@chaube</tspan>
-<tspan x="560" y="163" class="dim-text">Role      : </tspan><tspan class="text">AI &amp; Systems Engineer</tspan>
-<tspan x="560" y="181" class="dim-text">Ventures  : </tspan><tspan class="yellow bold">6 Active Companies</tspan>
-<tspan x="560" y="199" class="dim-text">Location  : </tspan><tspan class="text">India</tspan>
-<tspan x="560" y="217" class="dim-text">Mission   : </tspan><tspan class="orange">Low-resource language AI + systems programming</tspan>
-<tspan x="560" y="233" class="dim">────────────────────────────────────────────────────────────</tspan>
-<tspan x="560" y="251" class="purple bold">CURRENT BUILD:</tspan>
-<tspan x="560" y="269" class="cyan">  → </tspan><tspan class="text">Blyx Programming Language  </tspan><tspan class="dim">│</tspan><tspan class="cyan"> → </tspan><tspan class="text">EverestQ Lab</tspan>
+<!-- ADD PANEL 2: Founder Panel -->
+<rect x="545" y="95" width="525" height="120" rx="8" class="box-border"/>
+<text x="560" y="120" class="purple bold" font-size="12.5px">┌─ FOUNDER ───────────────────────────────────────────────────┐</text>
+<text x="560" y="148" class="text">
+<tspan x="560" y="148">  <tspan class="cyan bold">◈ Rahulchaube1</tspan>   <tspan class="white bold">Rahul Chaube</tspan></tspan>
+<tspan x="560" y="172" class="dim-text">    Founder &amp; CEO · EverestQ · Blyx · Neuroblyx</tspan>
+<tspan x="560" y="194">    <tspan class="orange">rahulchaube1.com</tspan> <tspan class="dim">·</tspan> <tspan class="orange">github.com/Rahulchaube1</tspan></tspan>
 </text>
-<text x="560" y="278" class="dim" font-size="12.5px">└────────────────────────────────────────────────────────────┘</text>
+<text x="560" y="205" class="dim" font-size="12.5px">└─────────────────────────────────────────────────────────────┘</text>
+
+<!-- Identity & Current Build Panel -->
+<rect x="545" y="230" width="525" height="195" rx="8" class="box-border"/>
+<text x="560" y="255" class="purple bold" font-size="12.5px">┌─ IDENTITY &amp; CURRENT BUILD ──────────────────────────────────┐</text>
+<text x="560" y="280" class="text">
+<tspan x="560" y="280" class="cyan bold">rahul@chaube</tspan>
+<tspan x="560" y="298" class="dim-text">Role      : </tspan><tspan class="text">AI &amp; Systems Engineer</tspan>
+<tspan x="560" y="316" class="dim-text">Ventures  : </tspan><tspan class="yellow bold">6 Active Companies</tspan>
+<tspan x="560" y="334" class="dim-text">Location  : </tspan><tspan class="text">India</tspan>
+<tspan x="560" y="352" class="dim-text">Mission   : </tspan><tspan class="orange">Low-resource language AI + systems programming</tspan>
+<tspan x="560" y="368" class="dim">────────────────────────────────────────────────────────────</tspan>
+<tspan x="560" y="386" class="purple bold">CURRENT BUILD:</tspan>
+<tspan x="560" y="404" class="cyan">  → </tspan><tspan class="text">Blyx Programming Language  </tspan><tspan class="dim">│</tspan><tspan class="cyan"> → </tspan><tspan class="text">EverestQ Lab</tspan>
+</text>
+<text x="560" y="413" class="dim" font-size="12.5px">└────────────────────────────────────────────────────────────┘</text>
 
 <!-- Tech Stack Panel -->
-<rect x="545" y="305" width="525" height="115" rx="8" class="box-border"/>
-<text x="560" y="328" class="purple bold" font-size="12.5px">┌─ TECH STACK ────────────────────────────────────────────────┐</text>
-<text x="560" y="354" class="text">
-<tspan x="560" y="354" class="orange bold">Core   </tspan><tspan class="dim">: </tspan><tspan class="purple bold">Blyx</tspan><tspan class="dim"> • </tspan><tspan class="text">Rust</tspan><tspan class="dim"> • </tspan><tspan class="text">C/C++</tspan><tspan class="dim"> • </tspan><tspan class="text">Python</tspan>
-<tspan x="560" y="376" class="orange bold">AI     </tspan><tspan class="dim">: </tspan><tspan class="cyan">LLMs</tspan><tspan class="dim"> • </tspan><tspan class="text">Agents</tspan><tspan class="dim"> • </tspan><tspan class="text">Multimodal</tspan><tspan class="dim"> • </tspan><tspan class="green">EQ Engine</tspan>
-<tspan x="560" y="398" class="orange bold">Infra  </tspan><tspan class="dim">: </tspan><tspan class="text">Linux</tspan><tspan class="dim"> • </tspan><tspan class="text">Distributed Systems</tspan><tspan class="dim"> • </tspan><tspan class="yellow">CUDA</tspan>
+<rect x="545" y="440" width="525" height="115" rx="8" class="box-border"/>
+<text x="560" y="463" class="purple bold" font-size="12.5px">┌─ TECH STACK ────────────────────────────────────────────────┐</text>
+<text x="560" y="489" class="text">
+<tspan x="560" y="489" class="orange bold">Core   </tspan><tspan class="dim">: </tspan><tspan class="purple bold">Blyx</tspan><tspan class="dim"> • </tspan><tspan class="text">Rust</tspan><tspan class="dim"> • </tspan><tspan class="text">C/C++</tspan><tspan class="dim"> • </tspan><tspan class="text">Python</tspan>
+<tspan x="560" y="511" class="orange bold">AI     </tspan><tspan class="dim">: </tspan><tspan class="cyan">LLMs</tspan><tspan class="dim"> • </tspan><tspan class="text">Agents</tspan><tspan class="dim"> • </tspan><tspan class="text">Multimodal</tspan><tspan class="dim"> • </tspan><tspan class="green">EQ Engine</tspan>
+<tspan x="560" y="533" class="orange bold">Infra  </tspan><tspan class="dim">: </tspan><tspan class="text">Linux</tspan><tspan class="dim"> • </tspan><tspan class="text">Distributed Systems</tspan><tspan class="dim"> • </tspan><tspan class="yellow">CUDA</tspan>
 </text>
-<text x="560" y="408" class="dim" font-size="12.5px">└────────────────────────────────────────────────────────────┘</text>
+<text x="560" y="543" class="dim" font-size="12.5px">└────────────────────────────────────────────────────────────┘</text>
 
-<!-- Panel 1: Ventures & Build Status -->
-<rect x="545" y="435" width="525" height="300" rx="8" class="box-border"/>
-<text x="560" y="458" class="purple bold" font-size="12.5px">┌─ VENTURES &amp; BUILD STATUS ───────────────────────────────────┐</text>
-<text x="560" y="482" class="text">
-<tspan x="560" y="482"><tspan class="orange bold">[BLYX]     </tspan>   <tspan class="dim-text">Open Source Systems Language</tspan>        <tspan class="green">● Online</tspan></tspan>
-<tspan x="560" y="504"><tspan class="cyan bold">[EVERESTQ] </tspan>   <tspan class="dim-text">Multilingual LLM Research Lab</tspan>       <tspan class="green">● Active</tspan></tspan>
-<tspan x="560" y="526"><tspan class="green bold">[NEUROBLYX]</tspan>   <tspan class="dim-text">Distributed GPU Compute</tspan>             <tspan class="yellow">● Building</tspan></tspan>
-<tspan x="560" y="548"><tspan class="purple bold">[MR.Q DEV] </tspan>   <tspan class="dim-text">AI-Native IDE (VS Code fork)</tspan>        <tspan class="yellow">● Alpha</tspan></tspan>
-<tspan x="560" y="570"><tspan class="yellow bold">[GUNRA]    </tspan>   <tspan class="dim-text">Humanoid Robotics + Multi-agent</tspan>     <tspan class="purple">● Research</tspan></tspan>
-<tspan x="560" y="592"><tspan class="pink bold">[ART. IMP.]</tspan>   <tspan class="dim-text">AI Creative Education Studio</tspan>        <tspan class="green">● Active</tspan></tspan>
-<tspan x="560" y="608" class="dim">────────────────────────────────────────────────────────────</tspan>
-<tspan x="560" y="628"><tspan class="text">Blyx Compiler      </tspan><tspan class="green">● Online   </tspan> <tspan class="dim">│</tspan> <tspan class="text">Docs: </tspan><tspan class="green">Publishing ●</tspan></tspan>
-<tspan x="560" y="648"><tspan class="text">EverestQ Engine    </tspan><tspan class="green">● Active   </tspan> <tspan class="dim">│</tspan> <tspan class="text">OpenSource: </tspan><tspan class="green">Live ●</tspan></tspan>
-<tspan x="560" y="668"><tspan class="text">Neuroblyx Infra    </tspan><tspan class="yellow">● Building </tspan> <tspan class="dim">│</tspan> <tspan class="text">GPU Marketplace: </tspan><tspan class="yellow">Soon ●</tspan></tspan>
-<tspan x="560" y="688"><tspan class="text">Mr.Q Dev IDE       </tspan><tspan class="yellow">● Alpha    </tspan> <tspan class="dim">│</tspan> <tspan class="text">Education: </tspan><tspan class="green">Active ●</tspan></tspan>
+<!-- Ventures & Build Status Panel -->
+<rect x="545" y="570" width="525" height="300" rx="8" class="box-border"/>
+<text x="560" y="593" class="purple bold" font-size="12.5px">┌─ VENTURES &amp; BUILD STATUS ───────────────────────────────────┐</text>
+<text x="560" y="617" class="text">
+<tspan x="560" y="617"><tspan class="orange bold">[BLYX]     </tspan>   <tspan class="dim-text">Open Source Systems Language</tspan>        <tspan class="green">● Online</tspan></tspan>
+<tspan x="560" y="639"><tspan class="cyan bold">[EVERESTQ] </tspan>   <tspan class="dim-text">Multilingual LLM Research Lab</tspan>       <tspan class="green">● Active</tspan></tspan>
+<tspan x="560" y="661"><tspan class="green bold">[NEUROBLYX]</tspan>   <tspan class="dim-text">Distributed GPU Compute</tspan>             <tspan class="yellow">● Building</tspan></tspan>
+<tspan x="560" y="683"><tspan class="purple bold">[MR.Q DEV] </tspan>   <tspan class="dim-text">AI-Native IDE (VS Code fork)</tspan>        <tspan class="yellow">● Alpha</tspan></tspan>
+<tspan x="560" y="705"><tspan class="yellow bold">[GUNRA]    </tspan>   <tspan class="dim-text">Humanoid Robotics + Multi-agent</tspan>     <tspan class="purple">● Research</tspan></tspan>
+<tspan x="560" y="727"><tspan class="pink bold">[ART. IMP.]</tspan>   <tspan class="dim-text">AI Creative Education Studio</tspan>        <tspan class="green">● Active</tspan></tspan>
+<tspan x="560" y="743" class="dim">────────────────────────────────────────────────────────────</tspan>
+<tspan x="560" y="763"><tspan class="text">Blyx Compiler      </tspan><tspan class="green">● Online   </tspan> <tspan class="dim">│</tspan> <tspan class="text">Docs: </tspan><tspan class="green">Publishing ●</tspan></tspan>
+<tspan x="560" y="783"><tspan class="text">EverestQ Engine    </tspan><tspan class="green">● Active   </tspan> <tspan class="dim">│</tspan> <tspan class="text">OpenSource: </tspan><tspan class="green">Live ●</tspan></tspan>
+<tspan x="560" y="803"><tspan class="text">Neuroblyx Infra    </tspan><tspan class="yellow">● Building </tspan> <tspan class="dim">│</tspan> <tspan class="text">GPU Marketplace: </tspan><tspan class="yellow">Soon ●</tspan></tspan>
+<tspan x="560" y="823"><tspan class="text">Mr.Q Dev IDE       </tspan><tspan class="yellow">● Alpha    </tspan> <tspan class="dim">│</tspan> <tspan class="text">Education: </tspan><tspan class="green">Active ●</tspan></tspan>
 </text>
-<text x="560" y="718" class="dim" font-size="12.5px">└────────────────────────────────────────────────────────────┘</text>
+<text x="560" y="853" class="dim" font-size="12.5px">└────────────────────────────────────────────────────────────┘</text>
 
 <!-- Recent Milestones Panel -->
-<rect x="545" y="750" width="525" height="180" rx="8" class="box-border"/>
-<text x="560" y="773" class="purple bold" font-size="12.5px">┌─ RECENT MILESTONES ─────────────────────────────────────────┐</text>
-<text x="560" y="797" class="text">
-<tspan x="560" y="797" class="cyan">2025 ▸ </tspan><tspan class="text">Red Bull Basement — Top 15 Worldwide</tspan>
-<tspan x="560" y="819" class="cyan">2025 ▸ </tspan><tspan class="text">Smart India Hackathon — Top 27 National</tspan>
-<tspan x="560" y="841" class="green">2026 ▸ </tspan><tspan class="text">Blyx Docs Launch + IEEE Paper</tspan>
-<tspan x="560" y="863" class="green">2026 ▸ </tspan><tspan class="text">EverestQ Pre-training Roadmap</tspan>
-<tspan x="560" y="885" class="green">2026 ▸ </tspan><tspan class="text">Neuroblyx Investor Deck</tspan>
-<tspan x="560" y="907" class="yellow">Ongoing ▸ </tspan><tspan class="orange bold">YC Startup School | Claude Startups Program</tspan>
+<rect x="545" y="885" width="525" height="180" rx="8" class="box-border"/>
+<text x="560" y="908" class="purple bold" font-size="12.5px">┌─ RECENT MILESTONES ─────────────────────────────────────────┐</text>
+<text x="560" y="932" class="text">
+<tspan x="560" y="932" class="cyan">2025 ▸ </tspan><tspan class="text">Red Bull Basement — Top 15 Worldwide</tspan>
+<tspan x="560" y="954" class="cyan">2025 ▸ </tspan><tspan class="text">Smart India Hackathon — Top 27 National</tspan>
+<tspan x="560" y="976" class="green">2026 ▸ </tspan><tspan class="text">Blyx Docs Launch + IEEE Paper</tspan>
+<tspan x="560" y="998" class="green">2026 ▸ </tspan><tspan class="text">EverestQ Pre-training Roadmap</tspan>
+<tspan x="560" y="1020" class="green">2026 ▸ </tspan><tspan class="text">Neuroblyx Investor Deck</tspan>
+<tspan x="560" y="1042" class="yellow">Ongoing ▸ </tspan><tspan class="orange bold">YC Startup School | Claude Startups Program</tspan>
 </text>
-<text x="560" y="918" class="dim" font-size="12.5px">└────────────────────────────────────────────────────────────┘</text>
+<text x="560" y="1053" class="dim" font-size="12.5px">└────────────────────────────────────────────────────────────┘</text>
 
-<!-- Panel 3: Contact & Links -->
-<rect x="545" y="945" width="525" height="110" rx="8" class="box-border"/>
-<text x="560" y="968" class="purple bold" font-size="12.5px">┌─ CONTACT &amp; LINKS ───────────────────────────────────────────┐</text>
-<text x="560" y="992" class="text">
-<tspan x="560" y="992" class="cyan bold">$ </tspan><tspan class="orange bold">reach --rahul</tspan>
-<tspan x="560" y="1014">  <tspan class="cyan">✉</tspan>  <tspan class="orange">rahul@everestqai.com</tspan>          <tspan class="dim-text">X:</tspan> <tspan class="orange">@RahulChaube_</tspan></tspan>
-<tspan x="560" y="1034">  <tspan class="cyan">◈</tspan>  <tspan class="orange">rahulchaube1.com</tspan>              <tspan class="dim-text">GitHub:</tspan> <tspan class="orange">/Rahulchaube1</tspan></tspan>
-<tspan x="560" y="1054">  <tspan class="cyan">⬡</tspan>  <tspan class="orange">blyx-lang.space</tspan> <tspan class="dim">│</tspan> <tspan class="orange">everestqai.com</tspan> <tspan class="dim">│</tspan> <tspan class="orange">doc.blyx-lang.space</tspan></tspan>
+<!-- Contact & Links Panel -->
+<rect x="545" y="1080" width="525" height="110" rx="8" class="box-border"/>
+<text x="560" y="1103" class="purple bold" font-size="12.5px">┌─ CONTACT &amp; LINKS ───────────────────────────────────────────┐</text>
+<text x="560" y="1127" class="text">
+<tspan x="560" y="1127" class="cyan bold">$ </tspan><tspan class="orange bold">reach --rahul</tspan>
+<tspan x="560" y="1149">  <tspan class="cyan">✉</tspan>  <tspan class="orange">rahul@everestqai.com</tspan>          <tspan class="dim-text">X:</tspan> <tspan class="orange">@RahulChaube_</tspan></tspan>
+<tspan x="560" y="1169">  <tspan class="cyan">◈</tspan>  <tspan class="orange">rahulchaube1.com</tspan>              <tspan class="dim-text">GitHub:</tspan> <tspan class="orange">/Rahulchaube1</tspan></tspan>
+<tspan x="560" y="1189">  <tspan class="cyan">⬡</tspan>  <tspan class="orange">blyx-lang.space</tspan> <tspan class="dim">│</tspan> <tspan class="orange">everestqai.com</tspan> <tspan class="dim">│</tspan> <tspan class="orange">doc.blyx-lang.space</tspan></tspan>
 </text>
-<text x="560" y="1045" class="dim" font-size="12.5px">└────────────────────────────────────────────────────────────┘</text>
+<text x="560" y="1180" class="dim" font-size="12.5px">└────────────────────────────────────────────────────────────┘</text>
 
 </svg>
