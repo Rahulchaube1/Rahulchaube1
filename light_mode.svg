@@ -1,174 +1,137 @@
-<?xml version='1.0' encoding='utf-8'?>
-<svg xmlns="http://www.w3.org/2000/svg" font-family="Consolas,Menlo,Monaco,'SF Pro Mono','Cascadia Code',monospace" width="1080px" height="980px" font-size="13.5px">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 900" width="1100" height="900" font-family="Consolas, Menlo, Monaco, 'SF Pro Mono', 'Cascadia Code', monospace" font-size="13px">
 <style>
-.bg { fill: #f6f8fa; }
-.card-bg { fill: #ffffff; }
-.titlebar { fill: #eaeff4; stroke: #d0d7de; stroke-width: 1; }
-.border { stroke: #d0d7de; stroke-width: 1.2; fill: none; }
-.box-border { stroke: #d0d7de; stroke-width: 1; fill: #ffffff; }
-.cyan { fill: #0969da; }
-.blue { fill: #0550ae; }
-.orange { fill: #bf4b00; font-weight: bold; }
-.green { fill: #1a7f37; font-weight: bold; }
-.red { fill: #cf222e; }
-.purple { fill: #8250df; font-weight: bold; }
-.dim { fill: #afb8c1; }
-.dim-text { fill: #57606a; }
-.text { fill: #24292f; }
+.bg { fill: #F6F8FA; }
+.titlebar { fill: #EAEFF4; stroke: #D0D7DE; stroke-width: 1; }
+.border { stroke: #D0D7DE; stroke-width: 1.2; fill: none; }
+.box-border { stroke: #D0D7DE; stroke-width: 1; fill: #FFFFFF; }
+.cyan { fill: #0969DA; }
+.orange { fill: #BF4B00; }
+.green { fill: #1A7F37; }
+.yellow { fill: #9A6700; }
+.purple { fill: #8250DF; }
+.pink { fill: #BF3989; }
+.red { fill: #CF222E; }
+.dim { fill: #AFB8C1; }
+.dim-text { fill: #57606A; }
+.text { fill: #24292F; }
 .bold { font-weight: bold; }
-.cmd { fill: #0969da; font-weight: bold; }
-.tag { fill: #953800; }
-.portrait { fill: #0550ae; }
 text, tspan { white-space: pre; }
 </style>
 
+<!-- Background and Window Frame -->
+<rect width="1100" height="900" rx="16" class="bg"/>
+<rect x="0.5" y="0.5" width="1099" height="899" rx="16" class="border" stroke="#0969DA" stroke-opacity="0.3"/>
 
-<rect width="1080" height="980" rx="16" class="bg" />
-<rect x="0.5" y="0.5" width="1079" height="979" rx="16" class="border" stroke="#0969da" stroke-opacity="0.3" />
+<!-- Terminal Header Bar -->
+<rect x="1" y="1" width="1098" height="42" rx="16" class="titlebar"/>
+<rect x="1" y="25" width="1098" height="18" class="titlebar"/>
+<circle cx="28" cy="22" r="6" fill="#FF5F56"/>
+<circle cx="48" cy="22" r="6" fill="#FFBD2E"/>
+<circle cx="68" cy="22" r="6" fill="#27C93F"/>
 
+<!-- Window Title -->
+<text x="550" y="27" text-anchor="middle" class="cyan bold" font-size="13px">RahulOS v3.0  |  rahul@chaube  |  Building AI-native infrastructure</text>
 
-<rect x="1" y="1" width="1078" height="42" rx="16" class="titlebar" />
-<rect x="1" y="25" width="1078" height="18" class="titlebar" />
-<circle cx="28" cy="22" r="6" fill="#ff5f56" />
-<circle cx="48" cy="22" r="6" fill="#ffbd2e" />
-<circle cx="68" cy="22" r="6" fill="#27c93f" />
-
-
-<text x="540" y="27" text-anchor="middle" class="cyan bold" font-size="13px">╭─ RahulOS v3.0 │ rahul@chaube │ AI Systems Terminal ─╮</text>
-
-
+<!-- System Status Sub-Header -->
 <text x="30" y="66" class="text" font-size="13px">
-<tspan class="dim-text">Status: </tspan><tspan class="green">ONLINE ●</tspan>  <tspan class="dim">│</tspan>  <tspan class="dim-text">Mode: </tspan><tspan class="cyan bold">BUILDING THE FUTURE</tspan>  <tspan class="dim">│</tspan>  <tspan class="dim-text">Kernel: </tspan><tspan class="text">Linux 6.8 / BlyxVM</tspan>  <tspan class="dim">│</tspan>  <tspan class="dim-text">Arch: </tspan><tspan class="orange">x86_64</tspan>
+<tspan class="dim-text">Status: </tspan><tspan class="green bold">ONLINE ●</tspan>  <tspan class="dim">│</tspan>  <tspan class="dim-text">Mode: </tspan><tspan class="cyan bold">BUILDING THE FUTURE</tspan>
 </text>
 
+<!-- Horizontal Separator -->
+<line x1="30" y1="80" x2="1070" y2="80" stroke="#D0D7DE" stroke-width="1"/>
 
-<line x1="30" y1="80" x2="1050" y2="80" stroke="#d0d7de" stroke-width="1" />
+<!-- ================= LEFT COLUMN ================= -->
 
-
-
-
-<rect x="30" y="95" width="475" height="420" rx="8" class="box-border" />
-<text x="45" y="118" class="orange bold" font-size="12.5px">╭── OPERATOR ASCII PORTRAIT ─────────────────────╮</text>
-<text x="45" y="140" class="portrait" font-size="13px">
-<tspan x="65" y="140">                 .-:::-                   </tspan>
-<tspan x="65" y="158">             .*@@@@@@@@@@%+.              </tspan>
-<tspan x="65" y="176">            @@@@@@@@@@@@@@@@#             </tspan>
-<tspan x="65" y="194">           @@@@@@@@@@@@@@@@@@%            </tspan>
-<tspan x="65" y="212">           @@@@@@@@@#*+=+#@@@*            </tspan>
-<tspan x="65" y="230">            @%++*+=:--:+*###@             </tspan>
-<tspan x="65" y="248">            :=+**%#+:+%%@%%*+=            </tspan>
-<tspan x="65" y="266">           .=:---::--:+=:::=#+            </tspan>
-<tspan x="65" y="284">            -=-...-::=*=--=**             </tspan>
-<tspan x="65" y="302">              +:-+***#%%#+#*              </tspan>
-<tspan x="65" y="320">               +++::=++**%@               </tspan>
-<tspan x="65" y="338">               -**++###%@@+-:             </tspan>
-<tspan x="65" y="356">           -=#% .=*#%@@%+- *@@*:.         </tspan>
-<tspan x="65" y="374">     .-=#@@@@@@.   :==-   :@@@@@@@#=-     </tspan>
-<tspan x="65" y="392">+#%@@@@@@@@@@@@= .+@@@@: .@@@@@@@@@@@@@@%*</tspan>
-<tspan x="65" y="410">@@@@@@@@@@@@@@@+   @@@-  :@@@@@@@@@@@@@@@@</tspan>
-<tspan x="65" y="428">@@@@@@@@@@@@@@@+  =@@@.  %@@@@@@@@@@@@@@@@</tspan>
-<tspan x="65" y="446">@@@@@@@@@@@@@@@% .@@@@* :@@@@@@@@@@@@@@@@@</tspan>
-<tspan x="65" y="464">@@@@@@@@@@@@@@@@.=@@@@% @@@@@@@@@@@@@@@@@@</tspan>
-<tspan x="65" y="482">@@@@@@@@@@@@@@@@+*@@@@%+@@@@@@@@@@@@@@@@@@</tspan>
+<!-- Ventures Panel -->
+<rect x="30" y="95" width="495" height="350" rx="8" class="box-border"/>
+<text x="45" y="120" class="purple bold" font-size="12.5px">┌─ VENTURES ──────────────────────────────────────────────────┐</text>
+<text x="45" y="148" class="text">
+<tspan x="45" y="152"><tspan class="orange bold">[BLYX]</tspan>         <tspan class="text">Systems Programming Language</tspan>  <tspan class="dim">→ </tspan><tspan class="cyan">blyx-lang.space</tspan></tspan>
+<tspan x="45" y="196"><tspan class="cyan bold">[EVERESTQ]</tspan>     <tspan class="text">Multilingual LLM Research Lab</tspan> <tspan class="dim">→ </tspan><tspan class="cyan">everestqai.com</tspan></tspan>
+<tspan x="45" y="240"><tspan class="green bold">[NEUROBLYX]</tspan>    <tspan class="text">Distributed GPU Compute</tspan>       <tspan class="dim">→ </tspan><tspan class="cyan">neuroblyx.com</tspan></tspan>
+<tspan x="45" y="284"><tspan class="purple bold">[MR.Q DEV]</tspan>     <tspan class="text">AI-Native IDE</tspan>                 <tspan class="dim">→ </tspan><tspan class="cyan">mrqdev.com</tspan></tspan>
+<tspan x="45" y="328"><tspan class="yellow bold">[GUNRA]</tspan>        <tspan class="text">Humanoid Robotics</tspan>             <tspan class="dim">→ </tspan><tspan class="cyan">gunra.ai</tspan></tspan>
+<tspan x="45" y="372"><tspan class="pink bold">[ARTISTIC IMP]</tspan> <tspan class="text">AI Creative Education</tspan>         <tspan class="dim">→ </tspan><tspan class="cyan">artisticimpression.ai</tspan></tspan>
 </text>
-<text x="45" y="504" class="dim" font-size="12.5px">╰────────────────────────────────────────────────╯</text>
+<text x="45" y="425" class="dim" font-size="12.5px">└─────────────────────────────────────────────────────────────┘</text>
 
+<!-- Terminal Session Panel -->
+<rect x="30" y="465" width="495" height="405" rx="8" class="box-border"/>
+<text x="45" y="490" class="purple bold" font-size="12.5px">┌─ TERMINAL SESSION ──────────────────────────────────────────┐</text>
+<text x="45" y="518" class="text">
+<tspan x="45" y="522" class="orange bold">&gt; </tspan><tspan class="cyan">whoami</tspan>
+<tspan x="45" y="546" class="text">Rahul Chaube — Founder × 6 | Systems Builder | LLM Researcher</tspan>
 
-<rect x="30" y="525" width="475" height="270" rx="8" class="box-border" />
-<text x="45" y="548" class="cyan bold" font-size="12.5px">╭── COMPUTE ARCHITECTURE &amp; TELEMETRY ────────────╮</text>
-<text x="45" y="570" class="text">
-<tspan x="220" y="570" class="orange bold">   ◉ CORE</tspan>
-<tspan x="190" y="588" class="dim">  ╱   │   ╲</tspan>
-<tspan x="155" y="606" class="cyan">LLM</tspan><tspan class="dim">  ─  </tspan><tspan class="purple">ISA</tspan><tspan class="dim">  ─  </tspan><tspan class="green">Runtime</tspan>
-<tspan x="190" y="624" class="dim">  ╲   │   ╱</tspan>
-<tspan x="205" y="642" class="orange bold">Compiler</tspan>
-<tspan x="240" y="658" class="dim">│</tspan>
-<tspan x="200" y="674" class="blue bold">Neuroflow</tspan>
-<tspan x="240" y="690" class="dim">│</tspan>
-<tspan x="205" y="706" class="purple bold">Blyx VM</tspan>
-<tspan x="240" y="722" class="dim">│</tspan>
-<tspan x="185" y="738" class="green bold">EverestQ Stack</tspan>
-<tspan x="45" y="756" class="dim">────────────────────────────────────────────────</tspan>
-<tspan x="45" y="774" class="dim-text">Signal Strength : </tspan><tspan class="green">██████████</tspan><tspan class="dim-text"> 100%</tspan>  <tspan class="dim">│</tspan> <tspan class="dim-text">Sync: </tspan><tspan class="cyan bold">ACTIVE</tspan>
+<tspan x="45" y="586" class="orange bold">&gt; </tspan><tspan class="cyan">cat mission.txt</tspan>
+<tspan x="45" y="610" class="yellow">Low-resource language AI. Systems programming. Humanoid robotics.</tspan>
+
+<tspan x="45" y="650" class="orange bold">&gt; </tspan><tspan class="cyan">./deploy --all-ventures</tspan>
+<tspan x="45" y="674" class="dim-text">Deploying... </tspan><tspan class="green">[████████████████████]</tspan><tspan class="dim"> 100%</tspan>
+<tspan x="45" y="698" class="green bold">All systems nominal. Future compiled successfully. </tspan><tspan class="purple bold">[BLYX]</tspan>
+
+<tspan x="45" y="746" class="dim-text">Binary: </tspan><tspan class="dim">01000010 01101100 01111001 01111000</tspan>
+<tspan x="45" y="776" class="orange bold">&gt; Launching future... </tspan><tspan class="cyan">█</tspan>
 </text>
-<text x="45" y="787" class="dim" font-size="12.5px">╰────────────────────────────────────────────────╯</text>
+<text x="45" y="850" class="dim" font-size="12.5px">└─────────────────────────────────────────────────────────────┘</text>
 
+<!-- ================= RIGHT COLUMN ================= -->
 
-<rect x="30" y="805" width="475" height="155" rx="8" class="box-border" />
-<text x="45" y="828" class="green bold" font-size="12.5px">╭── TERMINAL SESSION ────────────────────────────╮</text>
-<text x="45" y="850" class="text">
-<tspan x="45" y="850" class="cyan bold">&gt; </tspan><tspan class="text">sudo make future</tspan>
-<tspan x="45" y="868" class="dim-text">Building... </tspan><tspan class="cyan">[████████████████]</tspan><tspan class="dim-text"> 100%</tspan>
-<tspan x="45" y="886" class="green">Future compiled successfully.</tspan>
-<tspan x="45" y="904" class="dim-text">Binary: </tspan><tspan class="dim-text">01000010 01101100 01111001 01111000</tspan> <tspan class="purple bold">[BLYX]</tspan>
-<tspan x="45" y="924" class="orange bold">&gt; Launching future... </tspan><tspan class="cyan">█</tspan>
+<!-- Identity & Current Build Panel -->
+<rect x="545" y="95" width="525" height="195" rx="8" class="box-border"/>
+<text x="560" y="120" class="purple bold" font-size="12.5px">┌─ IDENTITY &amp; CURRENT BUILD ──────────────────────────────────┐</text>
+<text x="560" y="145" class="text">
+<tspan x="560" y="145" class="cyan bold">rahul@chaube</tspan>
+<tspan x="560" y="163" class="dim-text">Role      : </tspan><tspan class="text">AI &amp; Systems Engineer</tspan>
+<tspan x="560" y="181" class="dim-text">Ventures  : </tspan><tspan class="yellow bold">6 Active Companies</tspan>
+<tspan x="560" y="199" class="dim-text">Location  : </tspan><tspan class="text">India</tspan>
+<tspan x="560" y="217" class="dim-text">Mission   : </tspan><tspan class="orange">Low-resource language AI + systems programming</tspan>
+<tspan x="560" y="233" class="dim">────────────────────────────────────────────────────────────</tspan>
+<tspan x="560" y="251" class="purple bold">CURRENT BUILD:</tspan>
+<tspan x="560" y="269" class="cyan">  → </tspan><tspan class="text">Blyx Programming Language  </tspan><tspan class="dim">│</tspan><tspan class="cyan"> → </tspan><tspan class="text">EverestQ Lab</tspan>
 </text>
-<text x="45" y="948" class="dim" font-size="12.5px">╰────────────────────────────────────────────────╯</text>
+<text x="560" y="278" class="dim" font-size="12.5px">└────────────────────────────────────────────────────────────┘</text>
 
-
-
-
-<rect x="520" y="95" width="530" height="215" rx="8" class="box-border" />
-<text x="535" y="118" class="cyan bold" font-size="12.5px">╭── IDENTITY &amp; CURRENT BUILD ──────────────────────────────╮</text>
-<text x="535" y="140" class="text">
-<tspan x="535" y="140" class="orange bold">rahul@chaube</tspan>
-<tspan x="535" y="158" class="dim-text">Role      : </tspan><tspan class="text">AI &amp; Systems Engineer</tspan>
-<tspan x="535" y="176" class="dim-text">Academy   : </tspan><tspan class="text">SRM Institute (B.Tech CSE)</tspan>
-<tspan x="535" y="194" class="dim-text">Location  : </tspan><tspan class="text">India</tspan>
-<tspan x="535" y="212" class="dim-text">Mission   : </tspan><tspan class="cyan">Build AI-native computing</tspan>
-<tspan x="535" y="228" class="dim">──────────────────────────────────────────────────────────</tspan>
-<tspan x="535" y="246" class="purple bold">CURRENT BUILD:</tspan>
-<tspan x="535" y="264" class="cyan">  → </tspan><tspan class="text">Blyx Programming Language  </tspan><tspan class="dim">│</tspan><tspan class="cyan"> → </tspan><tspan class="text">EverestQ Lab</tspan>
-<tspan x="535" y="282" class="cyan">  → </tspan><tspan class="text">Neuroblyx Architecture     </tspan><tspan class="dim">│</tspan><tspan class="cyan"> → </tspan><tspan class="text">AI Runtimes</tspan>
+<!-- Tech Stack Panel -->
+<rect x="545" y="305" width="525" height="115" rx="8" class="box-border"/>
+<text x="560" y="328" class="purple bold" font-size="12.5px">┌─ TECH STACK ────────────────────────────────────────────────┐</text>
+<text x="560" y="354" class="text">
+<tspan x="560" y="354" class="orange bold">Core   </tspan><tspan class="dim">: </tspan><tspan class="purple bold">Blyx</tspan><tspan class="dim"> • </tspan><tspan class="text">Rust</tspan><tspan class="dim"> • </tspan><tspan class="text">C/C++</tspan><tspan class="dim"> • </tspan><tspan class="text">Python</tspan>
+<tspan x="560" y="376" class="orange bold">AI     </tspan><tspan class="dim">: </tspan><tspan class="cyan">LLMs</tspan><tspan class="dim"> • </tspan><tspan class="text">Agents</tspan><tspan class="dim"> • </tspan><tspan class="text">Multimodal</tspan><tspan class="dim"> • </tspan><tspan class="green">EQ Engine</tspan>
+<tspan x="560" y="398" class="orange bold">Infra  </tspan><tspan class="dim">: </tspan><tspan class="text">Linux</tspan><tspan class="dim"> • </tspan><tspan class="text">Distributed Systems</tspan><tspan class="dim"> • </tspan><tspan class="yellow">CUDA</tspan>
 </text>
-<text x="535" y="302" class="dim" font-size="12.5px">╰──────────────────────────────────────────────────────────╯</text>
+<text x="560" y="408" class="dim" font-size="12.5px">└────────────────────────────────────────────────────────────┘</text>
 
-
-<rect x="520" y="320" width="530" height="150" rx="8" class="box-border" />
-<text x="535" y="343" class="purple bold" font-size="12.5px">╭── TECH STACK ────────────────────────────────────────────╮</text>
-<text x="535" y="365" class="text">
-<tspan x="535" y="365" class="tag">Core    </tspan><tspan class="dim">: </tspan><tspan class="purple bold">Blyx</tspan><tspan class="dim"> • </tspan><tspan class="text">Rust</tspan><tspan class="dim"> • </tspan><tspan class="text">Python</tspan><tspan class="dim"> • </tspan><tspan class="text">C/C++</tspan>
-<tspan x="535" y="385" class="tag">AI      </tspan><tspan class="dim">: </tspan><tspan class="cyan">LLMs</tspan><tspan class="dim"> • </tspan><tspan class="text">Agents</tspan><tspan class="dim"> • </tspan><tspan class="text">Multimodal</tspan><tspan class="dim"> • </tspan><tspan class="text">Ollama</tspan>
-<tspan x="535" y="405" class="tag">Systems </tspan><tspan class="dim">: </tspan><tspan class="text">Linux</tspan><tspan class="dim"> • </tspan><tspan class="text">Docker</tspan><tspan class="dim"> • </tspan><tspan class="text">Networking</tspan><tspan class="dim"> • </tspan><tspan class="green">Runtime</tspan>
-<tspan x="535" y="425" class="tag">Web     </tspan><tspan class="dim">: </tspan><tspan class="text">TypeScript</tspan><tspan class="dim"> • </tspan><tspan class="text">React</tspan><tspan class="dim"> • </tspan><tspan class="text">Next.js</tspan><tspan class="dim"> • </tspan><tspan class="text">Vite</tspan>
-<tspan x="535" y="445" class="tag">Tools   </tspan><tspan class="dim">: </tspan><tspan class="text">Git</tspan><tspan class="dim"> • </tspan><tspan class="text">VS Code</tspan><tspan class="dim"> • </tspan><tspan class="text">IntelliJ</tspan><tspan class="dim"> • </tspan><tspan class="text">Vercel</tspan>
+<!-- System Status Panel -->
+<rect x="545" y="435" width="525" height="135" rx="8" class="box-border"/>
+<text x="560" y="458" class="purple bold" font-size="12.5px">┌─ SYSTEM STATUS ─────────────────────────────────────────────┐</text>
+<text x="560" y="484" class="text">
+<tspan x="560" y="484" class="dim-text">Blyx Compiler       </tspan><tspan class="green">●</tspan><tspan class="text"> Online     </tspan><tspan class="dim">│</tspan><tspan class="dim-text"> Docs: </tspan><tspan class="green">Publishing ●</tspan>
+<tspan x="560" y="508" class="dim-text">EverestQ Research   </tspan><tspan class="green">●</tspan><tspan class="text"> Active     </tspan><tspan class="dim">│</tspan><tspan class="dim-text"> Infrastructure: </tspan><tspan class="yellow">Building ●</tspan>
+<tspan x="560" y="532" class="dim-text">Neuroflow Runtime   </tspan><tspan class="green">●</tspan><tspan class="text"> Testing    </tspan><tspan class="dim">│</tspan><tspan class="dim-text"> Compute: </tspan><tspan class="red">Experimental ●</tspan>
 </text>
-<text x="535" y="462" class="dim" font-size="12.5px">╰──────────────────────────────────────────────────────────╯</text>
+<text x="560" y="556" class="dim" font-size="12.5px">└────────────────────────────────────────────────────────────┘</text>
 
-
-<rect x="520" y="480" width="530" height="205" rx="8" class="box-border" />
-<text x="535" y="503" class="orange bold" font-size="12.5px">╭── FEATURED PROJECTS &amp; SYSTEM STATUS ─────────────────────╮</text>
-<text x="535" y="525" class="text">
-<tspan x="535" y="525" class="cyan bold">[BLYX]      </tspan><tspan class="dim-text">AI-native Systems Programming Language</tspan>
-<tspan x="535" y="543" class="green bold">[EVERESTQ]  </tspan><tspan class="dim-text">AI Research Lab &amp; Multi-model Platform</tspan>
-<tspan x="535" y="561" class="purple bold">[NEUROBLYX] </tspan><tspan class="dim-text">Intelligent Compute Architecture</tspan>
-<tspan x="535" y="577" class="dim">──────────────────────────────────────────────────────────</tspan>
-<tspan x="535" y="595" class="dim-text">Blyx Compiler       </tspan><tspan class="green">●</tspan><tspan class="text"> Online     </tspan><tspan class="dim">│</tspan><tspan class="dim-text"> Docs: </tspan><tspan class="cyan">Publishing ●</tspan>
-<tspan x="535" y="613" class="dim-text">EverestQ Research   </tspan><tspan class="green">●</tspan><tspan class="text"> Active     </tspan><tspan class="dim">│</tspan><tspan class="dim-text"> OpenSource: </tspan><tspan class="green">Shipping ●</tspan>
-<tspan x="535" y="631" class="dim-text">Neuroflow Runtime   </tspan><tspan class="cyan">●</tspan><tspan class="text"> Testing    </tspan><tspan class="dim">│</tspan><tspan class="dim-text"> Build: </tspan><tspan class="orange">Experimental</tspan>
+<!-- Milestones Panel -->
+<rect x="545" y="585" width="525" height="180" rx="8" class="box-border"/>
+<text x="560" y="608" class="purple bold" font-size="12.5px">┌─ RECENT MILESTONES ─────────────────────────────────────────┐</text>
+<text x="560" y="632" class="text">
+<tspan x="560" y="632" class="cyan">2025 ▸ </tspan><tspan class="text">Red Bull Basement — Top 15 Worldwide</tspan>
+<tspan x="560" y="654" class="cyan">2025 ▸ </tspan><tspan class="text">Smart India Hackathon — Top 27 National</tspan>
+<tspan x="560" y="676" class="green">2026 ▸ </tspan><tspan class="text">Blyx Docs Launch + IEEE Paper</tspan>
+<tspan x="560" y="698" class="green">2026 ▸ </tspan><tspan class="text">EverestQ Pre-training Roadmap</tspan>
+<tspan x="560" y="720" class="green">2026 ▸ </tspan><tspan class="text">Neuroblyx Investor Deck</tspan>
+<tspan x="560" y="742" class="yellow">Ongoing ▸ </tspan><tspan class="orange bold">YC Startup School | Claude Startups Program</tspan>
 </text>
-<text x="535" y="675" class="dim" font-size="12.5px">╰──────────────────────────────────────────────────────────╯</text>
+<text x="560" y="753" class="dim" font-size="12.5px">└────────────────────────────────────────────────────────────┘</text>
 
-
-<rect x="520" y="695" width="530" height="155" rx="8" class="box-border" />
-<text x="535" y="718" class="green bold" font-size="12.5px">╭── GITHUB TELEMETRY &amp; MILESTONES ─────────────────────────╮</text>
-<text x="535" y="740" class="text">
-<tspan x="535" y="740" class="dim-text">Repos   : </tspan><tspan class="cyan bold" id="stats_repos">123</tspan><tspan class="dim">     │ </tspan><tspan class="dim-text">Stars     : </tspan><tspan class="orange bold" id="stats_stars">17</tspan><tspan class="dim">   │ </tspan><tspan class="dim-text">Followers : </tspan><tspan class="green bold" id="stats_followers">12</tspan>
-<tspan x="535" y="758" class="dim-text">Commits : </tspan><tspan class="text bold" id="stats_commits">1,024+</tspan><tspan class="dim">  │ </tspan><tspan class="dim-text">Lines/Code: </tspan><tspan class="text" id="stats_loc">248,310</tspan> <tspan class="dim">(</tspan><tspan class="green" id="stats_loc_add">278,920++</tspan> <tspan class="red" id="stats_loc_del">30,610--</tspan><tspan class="dim">)</tspan>
-<tspan x="535" y="774" class="dim">──────────────────────────────────────────────────────────</tspan>
-<tspan x="535" y="792" class="cyan">2026 ▸ Blyx Docs Launch</tspan><tspan class="dim">     │ </tspan><tspan class="green">2026 ▸ EverestQ Research</tspan>
-<tspan x="535" y="810" class="blue">2026 ▸ Runtime Experiments</tspan><tspan class="dim">  │ </tspan><tspan class="orange">2025 ▸ Open Source Growth</tspan>
+<!-- Command Palette & Contact Panel -->
+<rect x="545" y="780" width="525" height="90" rx="8" class="box-border"/>
+<text x="560" y="803" class="purple bold" font-size="12.5px">┌─ COMMAND PALETTE &amp; CONTACT ─────────────────────────────────┐</text>
+<text x="560" y="825" class="text">
+<tspan x="560" y="825" class="orange bold">$ </tspan><tspan class="cyan bold">available_commands: </tspan><tspan class="dim">[</tspan><tspan class="text">help</tspan><tspan class="dim">] [</tspan><tspan class="text">ventures</tspan><tspan class="dim">] [</tspan><tspan class="cyan">blyx</tspan><tspan class="dim">] [</tspan><tspan class="green">everestq</tspan><tspan class="dim">] [</tspan><tspan class="orange">contact</tspan><tspan class="dim">]</tspan>
+<tspan x="560" y="845" class="dim-text">Web: </tspan><tspan class="cyan">rahulchaube1.com</tspan><tspan class="dim"> │ </tspan><tspan class="dim-text">Blyx: </tspan><tspan class="purple">blyx-lang.space</tspan><tspan class="dim"> │ </tspan><tspan class="dim-text">Docs: </tspan><tspan class="cyan">doc.blyx-lang.space</tspan>
+<tspan x="560" y="862" class="dim-text">GitHub: </tspan><tspan class="orange bold">github.com/Rahulchaube1</tspan>
 </text>
-<text x="535" y="840" class="dim" font-size="12.5px">╰──────────────────────────────────────────────────────────╯</text>
-
-
-<rect x="520" y="860" width="530" height="100" rx="8" class="box-border" />
-<text x="535" y="883" class="cyan bold" font-size="12.5px">╭── COMMAND PALETTE &amp; CONTACT ─────────────────────────────╮</text>
-<text x="535" y="905" class="text">
-<tspan x="535" y="905" class="cyan bold">$ </tspan><tspan class="cmd">available_commands: </tspan><tspan class="dim">[</tspan><tspan class="text">help</tspan><tspan class="dim">] [</tspan><tspan class="text">projects</tspan><tspan class="dim">] [</tspan><tspan class="cyan">blyx</tspan><tspan class="dim">] [</tspan><tspan class="green">everestq</tspan><tspan class="dim">] [</tspan><tspan class="orange">contact</tspan><tspan class="dim">]</tspan>
-<tspan x="535" y="925" class="dim-text">Web: </tspan><tspan class="cyan">rahulchaube1.com</tspan><tspan class="dim"> │ </tspan><tspan class="dim-text">Blyx: </tspan><tspan class="purple">blyx-lang.space</tspan><tspan class="dim"> │ </tspan><tspan class="dim-text">Docs: </tspan><tspan class="blue">doc.blyx-lang.space</tspan>
-<tspan x="535" y="943" class="dim-text">GitHub: </tspan><tspan class="orange bold">github.com/Rahulchaube1</tspan>
-</text>
-<text x="535" y="955" class="dim" font-size="12.5px">╰──────────────────────────────────────────────────────────╯</text>
+<text x="560" y="865" class="dim" font-size="12.5px">└────────────────────────────────────────────────────────────┘</text>
 
 </svg>
