@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 1340" width="1100" height="1340" font-family="Consolas, Menlo, Monaco, 'SF Pro Mono', 'Cascadia Code', monospace" font-size="13px">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 1400" width="1100" height="1400" font-family="Consolas, Menlo, Monaco, 'SF Pro Mono', 'Cascadia Code', monospace" font-size="13px">
 <style>
 .bg { fill: #0D1117; }
 .titlebar { fill: #161B22; stroke: #30363D; stroke-width: 1; }
@@ -21,15 +21,14 @@
 .glow-high { fill: #00FF41; }
 .art-c1 { fill: #00FFFF; }
 .art-c2 { fill: #58A6FF; }
-.art-c3 { fill: #79C0FF; }
-.art-c4 { fill: #FFA657; }
-.art-c5 { fill: #E8734A; }
+.art-c3 { fill: #FFA657; }
+.art-c4 { fill: #E8734A; }
 text, tspan { white-space: pre; }
 </style>
 
 <!-- Background and Window Frame -->
-<rect width="1100" height="1340" rx="16" class="bg"/>
-<rect x="0.5" y="0.5" width="1099" height="1339" rx="16" class="border" stroke="#388BFD" stroke-opacity="0.3"/>
+<rect width="1100" height="1400" rx="16" class="bg"/>
+<rect x="0.5" y="0.5" width="1099" height="1399" rx="16" class="border" stroke="#388BFD" stroke-opacity="0.3"/>
 
 <!-- Terminal Header Bar -->
 <rect x="1" y="1" width="1098" height="42" rx="16" class="titlebar"/>
@@ -51,76 +50,80 @@ text, tspan { white-space: pre; }
 
 <!-- ================= LEFT COLUMN ================= -->
 
-<!-- ADD PANEL 1: Operator ASCII Portrait -->
-<rect x="30" y="95" width="495" height="465" rx="8" class="box-border"/>
+<!-- Operator ASCII Portrait Panel -->
+<rect x="30" y="95" width="495" height="530" rx="8" class="box-border"/>
 <text x="45" y="120" class="purple bold" font-size="12.5px">┌─ OPERATOR ASCII PORTRAIT ─────────────────────────────────┐</text>
-<text x="45" y="145" font-size="13px">
-<tspan x="100" y="148" class="art-c1">               .---::::---.        </tspan>
-<tspan x="100" y="166" class="art-c1">           .*%@@@@@@@@@@@@@@%*.    </tspan>
-<tspan x="100" y="184" class="art-c1">         .%@@@@@@@@@@@@@@@@@@@@%.  </tspan>
-<tspan x="100" y="202" class="art-c2">        =@@@@@@@@@@@@@@@@@@@@@@@@= </tspan>
-<tspan x="100" y="220" class="art-c2">       .@@@@@@@@@@@@@@@@@@@@@@@@@@.</tspan>
-<tspan x="100" y="238" class="art-c2">       *@@@@@@@@@@@@@@@@@@@@@@@@@@*</tspan>
-<tspan x="100" y="256" class="art-c3">       %@@@@@@@@@@@@@@@@@@@@@@@@@@%</tspan>
-<tspan x="100" y="274" class="art-c3">       =@@@@@@@@@@@@@@@@@@@@@@@@@@=</tspan>
-<tspan x="100" y="292" class="art-c3">        %@@@@@@@@@@@@@@@@@@@@@@@@% </tspan>
-<tspan x="100" y="310" class="art-c4">        .@@@@#*==---===*#@@@@@@@@. </tspan>
-<tspan x="100" y="328" class="art-c4">         -@%++*+=:---:=+*++%@@@@-  </tspan>
-<tspan x="100" y="346" class="art-c4">          :=+**#%#+:+%%@%%*+===:   </tspan>
-<tspan x="100" y="364" class="art-c4">          :---:--=+=:--::--::--:   </tspan>
-<tspan x="100" y="382" class="art-c5">           -=-...-::=*=--=**=-.    </tspan>
-<tspan x="100" y="400" class="art-c5">             +:-+***#%%#+#*+:      </tspan>
-<tspan x="100" y="418" class="art-c5">              +++::=++**%@*        </tspan>
-<tspan x="100" y="436" class="art-c5">              -**++###%@@+-:       </tspan>
-<tspan x="100" y="454" class="art-c5">          -=#% .=*#%@@%+- *@@*:.   </tspan>
-<tspan x="100" y="472" class="art-c5">    .-=#@@@@@@.   :==-   :@@@@@@@# </tspan>
-<tspan x="100" y="490" class="art-c5">+#%@@@@@@@@@@@@= .+@@@@: .@@@@@@@@@</tspan>
+<text x="45" y="145" font-size="12.5px">
+<tspan x="62" y="145" class="art-c1">                     ...                      </tspan>
+<tspan x="62" y="163" class="art-c1">                -@@@@@@@@@@+                  </tspan>
+<tspan x="62" y="181" class="art-c1">              =@@@@@@@@@@@@@@@                </tspan>
+<tspan x="62" y="199" class="art-c1">             *@@@@@@@@@@@@@@@@@.              </tspan>
+<tspan x="62" y="217" class="art-c1">             @@@@@@@@@@@@@@@@@@@              </tspan>
+<tspan x="62" y="235" class="art-c1">             @@@@@@@@@*+=-:*@@@%              </tspan>
+<tspan x="62" y="253" class="art-c2">              @@==+:-.  .=+***@               </tspan>
+<tspan x="62" y="271" class="art-c2">              ==+#%@@*:+@@@@@*+-              </tspan>
+<tspan x="62" y="289" class="art-c2">             ===:++#+:-=#:*+*:#%              </tspan>
+<tspan x="62" y="307" class="art-c2">              *=.  ... .=:...=@=              </tspan>
+<tspan x="62" y="325" class="art-c2">              -*:....==*%=--=%+               </tspan>
+<tspan x="62" y="343" class="art-c3">                #=-#@%%#@@@*%@                </tspan>
+<tspan x="62" y="361" class="art-c3">                 #==:-:++++#@                 </tspan>
+<tspan x="62" y="379" class="art-c3">                 =@*--+*++@@%.                </tspan>
+<tspan x="62" y="397" class="art-c3">               .@ =%@@@@@@@# :@+              </tspan>
+<tspan x="62" y="415" class="art-c3">            *@@@@   :=+##:   @@@@@@-          </tspan>
+<tspan x="62" y="433" class="art-c4">      .=*@@@@@@@@    :==    +@@@@@@@@@#:      </tspan>
+<tspan x="62" y="451" class="art-c4">  %@@@@@@@@@@@@@@= :@@@@@#  @@@@@@@@@@@@@@@@+ </tspan>
+<tspan x="62" y="469" class="art-c4"> +@@@@@@@@@@@@@@@+   @@@   -@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="62" y="487" class="art-c4"> @@@@@@@@@@@@@@@@+  .@@@   %@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="62" y="505" class="art-c4">@@@@@@@@@@@@@@@@@%  @@@@+  @@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="62" y="523" class="art-c4">@@@@@@@@@@@@@@@@@@ .@@@@@ *@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="62" y="541" class="art-c4">@@@@@@@@@@@@@@@@@@ =@@@@@ @@@@@@@@@@@@@@@@@@@@</tspan>
+<tspan x="62" y="559" class="art-c4">@@@@@@@@@@@@@@@@@@+*@@@@@+@@@@@@@@@@@@@@@@@@@@</tspan>
 </text>
-<text x="277" y="525" text-anchor="middle" class="orange bold" font-size="13px">rahul@chaube  ──  Founder × 6</text>
-<text x="45" y="550" class="dim" font-size="12.5px">└───────────────────────────────────────────────────────────┘</text>
+<text x="277" y="592" text-anchor="middle" class="orange bold" font-size="13px">rahul@chaube  ──  Founder × 6</text>
+<text x="45" y="612" class="dim" font-size="12.5px">└───────────────────────────────────────────────────────────┘</text>
 
 <!-- Commit Activity & Contribution Graph -->
-<rect x="30" y="575" width="495" height="395" rx="8" class="box-border"/>
-<text x="45" y="600" class="purple bold" font-size="12.5px">┌─ COMMIT ACTIVITY &amp; CONTRIBUTION GRAPH ──────────────────────┐</text>
-<text x="45" y="625" class="text">
-<tspan x="45" y="625" class="dim-text">Activity Heatmap (Last 26 Weeks / Mon–Sun):</tspan>
-<tspan x="45" y="648" class="dim-text">Mon </tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒▒▒</tspan><tspan class="glow-high">██████</tspan>
-<tspan x="45" y="666" class="dim-text">Tue </tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒▒</tspan><tspan class="glow-high">██████</tspan>
-<tspan x="45" y="684" class="dim-text">Wed </tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒▒▒</tspan><tspan class="glow-high">██████</tspan>
-<tspan x="45" y="702" class="dim-text">Thu </tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒▒▒</tspan><tspan class="glow-high">██████</tspan>
-<tspan x="45" y="720" class="dim-text">Fri </tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒▒▒</tspan><tspan class="glow-high">██████</tspan>
-<tspan x="45" y="738" class="dim-text">Sat </tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒▒▒</tspan><tspan class="glow-high">██████</tspan>
-<tspan x="45" y="756" class="dim-text">Sun </tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒▒▒</tspan><tspan class="glow-high">██████</tspan>
-<tspan x="45" y="776" class="dim">────────────────────────────────────────────────────────────</tspan>
-<tspan x="45" y="796" class="dim-text">Total Commits: </tspan><tspan class="green bold">1,024+</tspan>  <tspan class="dim">│</tspan>  <tspan class="dim-text">Streak: </tspan><tspan class="cyan bold">Active</tspan>  <tspan class="dim">│</tspan>  <tspan class="dim-text">Peak: </tspan><tspan class="orange bold">2026</tspan>
-<tspan x="45" y="814" class="dim">────────────────────────────────────────────────────────────</tspan>
-<tspan x="45" y="834" class="dim-text">Language Breakdown:</tspan>
-<tspan x="45" y="854"><tspan class="orange bold">Blyx   </tspan><tspan class="orange">██████</tspan><tspan class="dim">░░░░</tspan>  <tspan class="dim-text">38%</tspan></tspan>
-<tspan x="45" y="872"><tspan class="cyan bold">Rust   </tspan><tspan class="cyan">████</tspan><tspan class="dim">░░░░░░</tspan>  <tspan class="dim-text">24%</tspan></tspan>
-<tspan x="45" y="890"><tspan class="yellow bold">Python </tspan><tspan class="yellow">███</tspan><tspan class="dim">░░░░░░░</tspan>  <tspan class="dim-text">18%</tspan></tspan>
-<tspan x="45" y="908"><tspan class="purple bold">Go     </tspan><tspan class="purple">██</tspan><tspan class="dim">░░░░░░░░</tspan>  <tspan class="dim-text">12%</tspan></tspan>
-<tspan x="45" y="926"><tspan class="text bold">Other  </tspan><tspan class="text">█</tspan><tspan class="dim">░░░░░░░░░</tspan>   <tspan class="dim-text">8%</tspan></tspan>
+<rect x="30" y="640" width="495" height="395" rx="8" class="box-border"/>
+<text x="45" y="665" class="purple bold" font-size="12.5px">┌─ COMMIT ACTIVITY &amp; CONTRIBUTION GRAPH ──────────────────────┐</text>
+<text x="45" y="690" class="text">
+<tspan x="45" y="690" class="dim-text">Activity Heatmap (Last 26 Weeks / Mon–Sun):</tspan>
+<tspan x="45" y="713" class="dim-text">Mon </tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒▒▒</tspan><tspan class="glow-high">██████</tspan>
+<tspan x="45" y="731" class="dim-text">Tue </tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒▒</tspan><tspan class="glow-high">██████</tspan>
+<tspan x="45" y="749" class="dim-text">Wed </tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒▒▒</tspan><tspan class="glow-high">██████</tspan>
+<tspan x="45" y="767" class="dim-text">Thu </tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒▒▒</tspan><tspan class="glow-high">██████</tspan>
+<tspan x="45" y="785" class="dim-text">Fri </tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒▒▒</tspan><tspan class="glow-high">██████</tspan>
+<tspan x="45" y="803" class="dim-text">Sat </tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒▒▒</tspan><tspan class="glow-high">██████</tspan>
+<tspan x="45" y="821" class="dim-text">Sun </tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒</tspan><tspan class="glow-low">░</tspan><tspan class="glow-mid">▒▒▒</tspan><tspan class="glow-high">██████</tspan>
+<tspan x="45" y="841" class="dim">────────────────────────────────────────────────────────────</tspan>
+<tspan x="45" y="861" class="dim-text">Total Commits: </tspan><tspan class="green bold">1,024+</tspan>  <tspan class="dim">│</tspan>  <tspan class="dim-text">Streak: </tspan><tspan class="cyan bold">Active</tspan>  <tspan class="dim">│</tspan>  <tspan class="dim-text">Peak: </tspan><tspan class="orange bold">2026</tspan>
+<tspan x="45" y="879" class="dim">────────────────────────────────────────────────────────────</tspan>
+<tspan x="45" y="899" class="dim-text">Language Breakdown:</tspan>
+<tspan x="45" y="919"><tspan class="orange bold">Blyx   </tspan><tspan class="orange">██████</tspan><tspan class="dim">░░░░</tspan>  <tspan class="dim-text">38%</tspan></tspan>
+<tspan x="45" y="937"><tspan class="cyan bold">Rust   </tspan><tspan class="cyan">████</tspan><tspan class="dim">░░░░░░</tspan>  <tspan class="dim-text">24%</tspan></tspan>
+<tspan x="45" y="955"><tspan class="yellow bold">Python </tspan><tspan class="yellow">███</tspan><tspan class="dim">░░░░░░░</tspan>  <tspan class="dim-text">18%</tspan></tspan>
+<tspan x="45" y="973"><tspan class="purple bold">Go     </tspan><tspan class="purple">██</tspan><tspan class="dim">░░░░░░░░</tspan>  <tspan class="dim-text">12%</tspan></tspan>
+<tspan x="45" y="991"><tspan class="text bold">Other  </tspan><tspan class="text">█</tspan><tspan class="dim">░░░░░░░░░</tspan>   <tspan class="dim-text">8%</tspan></tspan>
 </text>
-<text x="45" y="955" class="dim" font-size="12.5px">└─────────────────────────────────────────────────────────────┘</text>
+<text x="45" y="1020" class="dim" font-size="12.5px">└─────────────────────────────────────────────────────────────┘</text>
 
 <!-- Terminal Session Panel -->
-<rect x="30" y="985" width="495" height="325" rx="8" class="box-border"/>
-<text x="45" y="1010" class="purple bold" font-size="12.5px">┌─ TERMINAL SESSION ──────────────────────────────────────────┐</text>
-<text x="45" y="1035" class="text">
-<tspan x="45" y="1035" class="orange bold">&gt; </tspan><tspan class="cyan">whoami</tspan>
-<tspan x="45" y="1055" class="text">Rahul Chaube — Founder × 6 | Systems Builder | LLM Researcher</tspan>
+<rect x="30" y="1050" width="495" height="325" rx="8" class="box-border"/>
+<text x="45" y="1075" class="purple bold" font-size="12.5px">┌─ TERMINAL SESSION ──────────────────────────────────────────┐</text>
+<text x="45" y="1100" class="text">
+<tspan x="45" y="1100" class="orange bold">&gt; </tspan><tspan class="cyan">whoami</tspan>
+<tspan x="45" y="1120" class="text">Rahul Chaube — Founder × 6 | Systems Builder | LLM Researcher</tspan>
 
-<tspan x="45" y="1085" class="orange bold">&gt; </tspan><tspan class="cyan">cat mission.txt</tspan>
-<tspan x="45" y="1105" class="yellow">Low-resource language AI. Systems programming. Humanoid robotics.</tspan>
+<tspan x="45" y="1150" class="orange bold">&gt; </tspan><tspan class="cyan">cat mission.txt</tspan>
+<tspan x="45" y="1170" class="yellow">Low-resource language AI. Systems programming. Humanoid robotics.</tspan>
 
-<tspan x="45" y="1135" class="orange bold">&gt; </tspan><tspan class="cyan">./deploy --all-ventures</tspan>
-<tspan x="45" y="1155" class="dim-text">Deploying... </tspan><tspan class="green">[████████████████████]</tspan><tspan class="dim"> 100%</tspan>
-<tspan x="45" y="1175" class="green bold">All systems nominal. Future compiled successfully. </tspan><tspan class="purple bold">[BLYX]</tspan>
+<tspan x="45" y="1200" class="orange bold">&gt; </tspan><tspan class="cyan">./deploy --all-ventures</tspan>
+<tspan x="45" y="1220" class="dim-text">Deploying... </tspan><tspan class="green">[████████████████████]</tspan><tspan class="dim"> 100%</tspan>
+<tspan x="45" y="1240" class="green bold">All systems nominal. Future compiled successfully. </tspan><tspan class="purple bold">[BLYX]</tspan>
 
-<tspan x="45" y="1215" class="dim-text">Binary: </tspan><tspan class="dim">01000010 01101100 01111001 01111000</tspan>
-<tspan x="45" y="1245" class="orange bold">&gt; Launching future... </tspan><tspan class="cyan">█</tspan>
+<tspan x="45" y="1280" class="dim-text">Binary: </tspan><tspan class="dim">01000010 01101100 01111001 01111000</tspan>
+<tspan x="45" y="1310" class="orange bold">&gt; Launching future... </tspan><tspan class="cyan">█</tspan>
 </text>
-<text x="45" y="1295" class="dim" font-size="12.5px">└─────────────────────────────────────────────────────────────┘</text>
+<text x="45" y="1360" class="dim" font-size="12.5px">└─────────────────────────────────────────────────────────────┘</text>
 
 <!-- ================= RIGHT COLUMN ================= -->
 
