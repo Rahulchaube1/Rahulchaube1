@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 520" role="img" aria-labelledby="title desc">
+<title id="title">Rahul Chaube — AI Systems</title>
+<desc id="desc">A dark 3D-inspired network visualization representing AI systems, compilers and open-source engineering.</desc>
+<defs>
+  <radialGradient id="bg" cx="72%" cy="42%" r="80%"><stop offset="0" stop-color="#101d3a"/><stop offset="1" stop-color="#030712"/></radialGradient>
+  <radialGradient id="core"><stop offset="0" stop-color="#67e8f9" stop-opacity=".8"/><stop offset=".35" stop-color="#38bdf8" stop-opacity=".25"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0"/></radialGradient>
+  <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#67e8f9"/><stop offset=".5" stop-color="#818cf8"/><stop offset="1" stop-color="#c084fc"/></linearGradient>
+  <filter id="glow"><feGaussianBlur stdDeviation="7" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="25"/></filter>
+</defs>
+<rect width="1400" height="520" rx="28" fill="url(#bg)"/>
+<circle cx="1080" cy="260" r="210" fill="url(#core)" filter="url(#soft)"/>
+<g stroke="#29405f" stroke-width="1" opacity=".35">
+  <path d="M720 70L1360 70M720 150L1360 150M720 230L1360 230M720 310L1360 310M720 390L1360 390M720 470L1360 470"/>
+  <path d="M780 40L780 480M900 40L900 480M1020 40L1020 480M1140 40L1140 480M1260 40L1260 480"/>
+</g>
+<g font-family="Inter,Arial,sans-serif">
+  <text x="72" y="88" fill="#67e8f9" font-size="15" font-weight="700" letter-spacing="4">AI ENGINEERING / OPEN SOURCE</text>
+  <text x="72" y="172" fill="#f8fafc" font-size="68" font-weight="800" letter-spacing="-3">Rahul Chaube</text>
+  <text x="74" y="215" fill="#a8b1c7" font-size="21">AI systems · LLMs · Agents · Compilers · Infrastructure</text>
+  <text x="74" y="275" fill="#64748b" font-size="16">Building useful software where intelligent models meet</text>
+  <text x="74" y="300" fill="#64748b" font-size="16">the systems underneath them.</text>
+  <rect x="72" y="350" width="420" height="1" fill="#263852"/>
+  <text x="72" y="388" fill="#67e8f9" font-size="14" font-weight="700">FLAGSHIP</text>
+  <text x="72" y="420" fill="#f8fafc" font-size="26" font-weight="700">Blyx</text>
+  <text x="150" y="420" fill="#64748b" font-size="16">AI-native systems language</text>
+  <text x="72" y="456" fill="#475569" font-size="13">Research → Engineering → Open Source</text>
+</g>
+<g transform="translate(1080 260)" filter="url(#glow)">
+  <circle r="112" fill="none" stroke="url(#ring)" stroke-width="2" opacity=".45"/>
+  <ellipse rx="150" ry="55" fill="none" stroke="#67e8f9" stroke-width="1.5" opacity=".45" transform="rotate(-28)"/>
+  <ellipse rx="150" ry="55" fill="none" stroke="#a78bfa" stroke-width="1.5" opacity=".38" transform="rotate(32)"/>
+  <circle r="64" fill="none" stroke="url(#ring)" stroke-width="3" opacity=".75"/>
+  <circle r="32" fill="#07152d" stroke="#67e8f9" stroke-width="2"/>
+  <circle r="11" fill="#67e8f9"/>
+  <g fill="#67e8f9">
+    <circle cx="-150" cy="0" r="5"/><circle cx="150" cy="0" r="5"/><circle cx="0" cy="-112" r="5"/><circle cx="0" cy="112" r="5"/>
+  </g>
+  <g stroke="#67e8f9" stroke-width="1" opacity=".35"><path d="M-150 0L-32 0M150 0L32 0M0-112L0-32M0 112L0 32"/></g>
+</g>
+<text x="1360" y="480" text-anchor="end" fill="#334155" font-family="monospace" font-size="12">BUILD → MEASURE → SHARE → IMPROVE</text>
+</svg>
