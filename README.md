@@ -1,136 +1,150 @@
 <div align="center">
 
-# Rahul Chaube
+<img src="assets/ai-system.svg" alt="Rahul Chaube — AI Systems" width="100%" />
 
 ### AI Engineer · Founder · Open-Source Builder
 
 **AI systems · LLMs · Agents · Compilers · Developer Infrastructure**
 
-I build practical software at the intersection of **AI and systems engineering** — turning ambitious ideas into reproducible, maintainable, open-source projects.
+[![GitHub](https://img.shields.io/badge/GitHub-Rahulchaube1-181717?style=flat-square&logo=github)](https://github.com/Rahulchaube1)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rahul-chaube-2520b21b7/)
+[![Profile Views](https://komarev.com/ghpvc/?username=Rahulchaube1&style=flat-square&color=0969DA)](https://github.com/Rahulchaube1)
 
-<p>
-  <a href="https://github.com/Rahulchaube1"><img src="https://img.shields.io/badge/GitHub-Rahulchaube1-181717?style=for-the-badge&logo=github" alt="GitHub"></a>
-  <a href="https://www.linkedin.com/in/rahul-chaube-2520b21b7/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
-</p>
-
-<img src="https://komarev.com/ghpvc/?username=Rahulchaube1&style=flat-square&color=0969DA" alt="Profile views" />
-
-**[✦ Explore the interactive Three.js profile →](./3d-profile/)**
+**[✦ Enter the interactive Three.js profile](./3d-profile/index.html)**
 
 </div>
 
 ---
 
-## 👋 About me
+## About
 
-I'm an AI-focused engineer and builder interested in the full path from **research idea → system → product → open source**.
+I build software at the intersection of **AI and systems engineering** — from LLM-powered applications and agents to programming languages, compilers, developer tools, and AI infrastructure.
 
-I enjoy working on problems where machine learning meets software infrastructure: model-powered applications, agents, compilers, programming languages, developer tooling, and AI compute.
+My goal is to turn ambitious ideas into software that is **useful, reproducible, maintainable, and open to contribution**.
 
-### What I care about
+### Current focus
 
-- **Technical depth** — understanding how systems work, not only how to use them
-- **Shipping** — turning experiments into software people can actually run
-- **Reproducibility** — measurable claims, documented methodology, and repeatable results
-- **Open source** — making projects understandable and useful to other developers
-- **Long-term systems** — architecture that can evolve without becoming unmaintainable
-
----
-
-## 🚀 Featured work
-
-### [Blyx](https://github.com/Rahulchaube1/blyxxxx)
-**AI-native systems programming language** · `Rust` · `Compiler` · `BIR/SSA`
-
-An experimental language exploring AI-oriented computation, concurrency, tensors, heterogeneous computing, and native compilation as language-level concepts.
-
-**Why it matters:** exploring what an AI-first programming model could look like at the systems level.
-
-→ [Repository](https://github.com/Rahulchaube1/blyxxxx) · [Website](https://blyx-lang.space) · [Playground](https://play.blyx-lang.space)
-
-### [AR Studio](https://github.com/Rahulchaube1/AR)
-**Browser-based AR/VR creation workspace** · `React` · `Three.js` · `MediaPipe`
-
-A creative workspace combining hand tracking, 2D drawing, 3D object creation, gesture interaction, and persistent sessions.
-
-→ [Repository](https://github.com/Rahulchaube1/AR)
-
-### [MapNepal](https://github.com/Rahulchaube1/mapnepal)
-**Open-source geospatial platform** · `MapLibre` · `Node.js` · `Express`
-
-A full-stack mapping application for exploring Nepal's provinces, landmarks, trekking routes, terrain, search, and routing.
-
-→ [Repository](https://github.com/Rahulchaube1/mapnepal) · [Live demo](https://mapnepal-nj91.vercel.app)
+- 🤖 **AI / LLM engineering** — agents, inference, model-powered products
+- ⚙️ **Systems engineering** — compilers, runtimes, concurrency, performance
+- 🧩 **Programming languages** — language design, type systems, IRs, tooling
+- 🧠 **AI infrastructure** — compute, accelerators, experimentation
+- 🌍 **Open source** — projects, documentation, tests, and contributor workflows
 
 ---
 
-## 🧠 Areas I work in
+## Featured projects
 
-| Area | Focus |
-| --- | --- |
-| **AI / LLMs** | Agents, inference, model-powered applications, AI-native tooling |
-| **Systems** | Compilers, runtimes, concurrency, performance, native software |
-| **Programming languages** | Language design, type systems, IRs, developer tooling |
-| **AI infrastructure** | Compute, accelerators, experimentation, system architecture |
-| **Developer tools** | CLI tooling, automation, workflows, development experience |
-| **Open source** | Documentation, testing, contribution workflows, reproducibility |
+<table>
+<tr>
+<td width="33%" valign="top">
+
+### 🧬 Blyx
+
+**AI-native systems programming language**
+
+Exploring AI-oriented computation, concurrency, tensors, heterogeneous computing, and native compilation.
+
+**Stack:** Rust · Compiler · BIR/SSA
+
+**[Repository →](https://github.com/Rahulchaube1/blyxxxx)**  
+**[Website →](https://blyx-lang.space)**  
+**[Playground →](https://play.blyx-lang.space)**
+
+</td>
+<td width="33%" valign="top">
+
+### 🥽 AR Studio
+
+**Interactive AR/VR creation workspace**
+
+Combines hand tracking, 2D drawing, 3D creation, gesture interaction, and persistent sessions.
+
+**Stack:** React · Three.js · MediaPipe
+
+**[Repository →](https://github.com/Rahulchaube1/AR)**
+
+</td>
+<td width="33%" valign="top">
+
+### 🗺️ MapNepal
+
+**Open-source geospatial platform**
+
+A full-stack mapping application for Nepal with terrain, landmarks, trekking routes, search, and routing.
+
+**Stack:** MapLibre · Node.js · Express
+
+**[Repository →](https://github.com/Rahulchaube1/mapnepal)**  
+**[Live demo →](https://mapnepal-nj91.vercel.app)**
+
+</td>
+</tr>
+</table>
 
 ---
 
-## 🛠️ Technology
+## Engineering interests
 
-**Languages**
-
-`Python` · `Rust` · `C++` · `TypeScript` · `JavaScript`
-
-**AI / ML**
-
-`PyTorch` · `LLM APIs` · `AI Agents` · `Inference`
-
-**Systems & Web**
-
-`Linux` · `Docker` · `GitHub Actions` · `React` · `Node.js` · `Three.js`
+```text
+AI / LLMs          → agents · inference · AI-native applications
+Systems            → compilers · runtimes · concurrency · performance
+Languages          → type systems · IRs · language tooling
+AI Infrastructure  → compute · accelerators · distributed systems
+Developer Tools    → CLI · automation · DX · testing
+Open Source        → RFCs · documentation · reproducibility · community
+```
 
 ---
 
-## 🌱 Open source
+## Technology
 
-I welcome collaboration from engineers, researchers, students, and builders interested in **AI systems, programming languages, compilers, infrastructure, and developer tools**.
+**Languages**  
+`Python` `Rust` `C++` `TypeScript` `JavaScript`
 
-Good contributions include:
+**AI / ML**  
+`PyTorch` `LLMs` `Agents` `Inference`
 
-- 🐛 Bug reports and reproducible issues
-- 🧪 Tests and experiments
-- 📚 Documentation and examples
-- ⚡ Performance improvements
-- 🧩 Focused features and tooling
-- 💡 Language and architecture RFCs
-
-For substantial architectural changes, opening an issue or RFC first is usually the best way to collaborate.
+**Systems / Web**  
+`Linux` `Docker` `GitHub Actions` `React` `Node.js` `Three.js`
 
 ---
 
-## 📌 What I'm building toward
+## Open source
+
+I welcome collaboration from engineers, researchers, students, and builders working on **AI systems, programming languages, compilers, infrastructure, and developer tools**.
+
+Good contribution paths include:
+
+- 🐛 reproducible bug reports
+- 🧪 tests and experiments
+- 📚 documentation and examples
+- ⚡ performance work
+- 🧩 focused features
+- 💡 language and architecture RFCs
+
+For substantial changes, start with an issue or RFC so the design can be discussed before implementation.
+
+---
+
+## What I'm building toward
 
 > **AI-native software that is technically deep, useful in practice, and open enough for others to build on.**
 
-I'm especially interested in the boundary between **AI models and the systems underneath them** — languages, runtimes, compute, agents, and developer infrastructure.
+I'm particularly interested in the boundary between **AI models and the systems underneath them** — languages, runtimes, compute, agents, and developer infrastructure.
 
 ---
 
-## 🤝 Let's connect
+## Connect
 
-If you're building something interesting in AI, systems, open source, or developer infrastructure, feel free to reach out.
+If you're building something interesting in AI, systems, open source, or developer infrastructure, I'd be glad to connect.
 
 - **GitHub:** [@Rahulchaube1](https://github.com/Rahulchaube1)
 - **LinkedIn:** [Rahul Chaube](https://www.linkedin.com/in/rahul-chaube-2520b21b7/)
-
----
 
 <div align="center">
 
 **Build → Measure → Share → Improve**
 
-⭐ Star useful projects · 💬 Open discussions · 🤝 Contribute · 📢 Share what you learn
+⭐ Star useful projects · 💬 Start a discussion · 🤝 Contribute · 📢 Share what you learn
 
 </div>
