@@ -15,6 +15,8 @@ I build practical software at the intersection of **AI and systems engineering**
 
 <img src="https://komarev.com/ghpvc/?username=Rahulchaube1&style=flat-square&color=0969DA" alt="Profile views" />
 
+**[✦ Explore the interactive Three.js profile →](./3d-profile/)**
+
 </div>
 
 ---
