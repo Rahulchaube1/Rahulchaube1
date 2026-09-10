@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Rahul Chaube — AI Engineer, Founder and Open-Source Builder." />
+  <title>Rahul Chaube — AI Engineer</title>
+  <style>
+    :root{font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:#eef2ff;background:#030712}
+    *{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#030712}
+    #scene{position:fixed;inset:0}canvas{display:block}
+    .hud{position:fixed;inset:0;pointer-events:none;padding:clamp(20px,4vw,56px);display:flex;flex-direction:column;justify-content:space-between}
+    .top{max-width:760px;pointer-events:auto}.eyebrow{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:#67e8f9;font-weight:700}
+    h1{font-size:clamp(42px,8vw,92px);line-height:.95;margin:12px 0 18px;letter-spacing:-.055em}
+    .gradient{background:linear-gradient(110deg,#fff 15%,#67e8f9 52%,#a78bfa);-webkit-background-clip:text;background-clip:text;color:transparent}
+    .lead{max-width:620px;color:#a8b1c7;font-size:clamp(15px,2vw,19px);line-height:1.65;margin:0}
+    .actions{display:flex;gap:10px;flex-wrap:wrap;margin-top:24px;pointer-events:auto}.btn{border:1px solid #263249;background:rgba(5,10,24,.7);backdrop-filter:blur(12px);color:#eef2ff;text-decoration:none;border-radius:999px;padding:10px 16px;font-size:13px;font-weight:700}.btn:hover{border-color:#67e8f9;color:#67e8f9}
+    .bottom{display:flex;justify-content:space-between;align-items:end;gap:20px}.hint{color:#68738a;font-size:12px}.status{font-size:12px;color:#7dd3fc;letter-spacing:.08em;text-transform:uppercase}
+    .panel{position:fixed;right:24px;top:50%;transform:translateY(-50%);width:min(330px,calc(100vw - 48px));padding:22px;border:1px solid #27324a;border-radius:20px;background:rgba(4,8,20,.78);backdrop-filter:blur(18px);box-shadow:0 20px 80px rgba(0,0,0,.4);opacity:0;pointer-events:none;transition:.25s}.panel.open{opacity:1;pointer-events:auto}.panel h2{margin:0 0 8px;font-size:22px}.panel p{color:#9ca8bf;line-height:1.55;font-size:14px}.panel a{color:#67e8f9}.close{position:absolute;right:12px;top:10px;border:0;background:none;color:#93a0b8;font-size:20px;cursor:pointer}
+    @media(max-width:700px){.hud{padding:24px}.panel{right:16px;left:16px;width:auto;top:auto;bottom:20px;transform:none}.bottom{display:none}.lead{font-size:15px}.actions{margin-top:18px}}
+  </style>
+</head>
+<body>
+  <div id="scene"></div>
+  <main class="hud">
+    <section class="top">
+      <div class="eyebrow">AI ENGINEER · FOUNDER · OPEN-SOURCE BUILDER</div>
+      <h1>Building the <span class="gradient">AI-native</span> future.</h1>
+      <p class="lead">I build systems where AI meets software infrastructure — LLMs, agents, compilers, programming languages, developer tools and AI compute.</p>
+      <div class="actions">
+        <a class="btn" href="https://github.com/Rahulchaube1" target="_blank" rel="noreferrer">GitHub ↗</a>
+        <a class="btn" href="https://github.com/Rahulchaube1/blyxxxx" target="_blank" rel="noreferrer">Explore Blyx ↗</a>
+        <a class="btn" href="https://www.linkedin.com/in/rahul-chaube-2520b21b7/" target="_blank" rel="noreferrer">LinkedIn ↗</a>
+      </div>
+    </section>
+    <div class="bottom"><div class="hint">Drag to explore · Scroll to zoom · Click a project node</div><div class="status">● Online / Building</div></div>
+  </main>
+  <aside id="panel" class="panel"><button class="close" aria-label="Close">×</button><h2 id="ptitle"></h2><p id="ptext"></p><a id="plink" target="_blank" rel="noreferrer">Open project ↗</a></aside>
+
+  <script type="module">
+    import * as THREE from 'https://cdn.jsdelivr.net/npm/three@0.180.0/build/three.module.js';
+    import { OrbitControls } from 'https://cdn.jsdelivr.net/npm/three@0.180.0/examples/jsm/controls/OrbitControls.js';
+
+    const scene = new THREE.Scene();
+    scene.fog = new THREE.FogExp2(0x030712, 0.035);
+    const camera = new THREE.PerspectiveCamera(55, innerWidth / innerHeight, .1, 200);
+    camera.position.set(0, 1.8, 10);
+    const renderer = new THREE.WebGLRenderer({antialias:true,alpha:true,powerPreference:'high-performance'});
+    renderer.setPixelRatio(Math.min(devicePixelRatio, 1.75)); renderer.setSize(innerWidth,innerHeight); renderer.outputColorSpace=THREE.SRGBColorSpace;
+    document.querySelector('#scene').appendChild(renderer.domElement);
+    const controls = new OrbitControls(camera, renderer.domElement); controls.enableDamping=true; controls.enablePan=false; controls.minDistance=6; controls.maxDistance=18; controls.autoRotate=true; controls.autoRotateSpeed=.22;
+
+    scene.add(new THREE.AmbientLight(0x8aa4ff,1.2));
+    const key=new THREE.PointLight(0x67e8f9,65,35); key.position.set(4,5,6); scene.add(key);
+    const fill=new THREE.PointLight(0xa78bfa,45,30); fill.position.set(-5,-2,4); scene.add(fill);
+
+    const core = new THREE.Mesh(new THREE.IcosahedronGeometry(2.15,3), new THREE.MeshStandardMaterial({color:0x07152d,metalness:.75,roughness:.2,wireframe:true,transparent:true,opacity:.62}));
+    scene.add(core);
+    const inner = new THREE.Mesh(new THREE.IcosahedronGeometry(1.45,2), new THREE.MeshBasicMaterial({color:0x67e8f9,wireframe:true,transparent:true,opacity:.08})); scene.add(inner);
+
+    const starGeo=new THREE.BufferGeometry(), count=1500, pos=new Float32Array(count*3);
+    for(let i=0;i<count*3;i++) pos[i]=(Math.random()-.5)*80;
+    starGeo.setAttribute('position',new THREE.BufferAttribute(pos,3));
+    const stars=new THREE.Points(starGeo,new THREE.PointsMaterial({color:0x93c5fd,size:.035,transparent:true,opacity:.7})); scene.add(stars);
+
+    const projects=[
+      {name:'Blyx',text:'AI-native systems programming language exploring compilers, BIR/SSA, concurrency, tensors and heterogeneous computing.',url:'https://github.com/Rahulchaube1/blyxxxx',p:[3.2,1.2,.3],c:0x67e8f9},
+      {name:'AR Studio',text:'Browser-based AR/VR creation workspace combining hand tracking, drawing and Three.js 3D interaction.',url:'https://github.com/Rahulchaube1/AR',p:[-3,-.5,.6],c:0xa78bfa},
+      {name:'MapNepal',text:'Open-source geospatial platform for exploring Nepal with maps, routes, landmarks and a Node.js API.',url:'https://github.com/Rahulchaube1/mapnepal',p:[.8,-2.8,-.2],c:0x38bdf8}
+    ];
+    const nodes=[]; const ray=new THREE.Raycaster(); const mouse=new THREE.Vector2();
+    for(const p of projects){
+      const group=new THREE.Group(); group.position.set(...p.p); group.userData=p;
+      const mesh=new THREE.Mesh(new THREE.SphereGeometry(.28,24,24),new THREE.MeshStandardMaterial({color:p.c,emissive:p.c,emissiveIntensity:2,metalness:.2,roughness:.2}));
+      const ring=new THREE.Mesh(new THREE.TorusGeometry(.5,.012,8,64),new THREE.MeshBasicMaterial({color:p.c,transparent:true,opacity:.7})); ring.rotation.x=Math.PI/2;
+      group.add(mesh,ring); scene.add(group); nodes.push(group);
+      const line=new THREE.Line(new THREE.BufferGeometry().setFromPoints([new THREE.Vector3(...p.p),new THREE.Vector3(0,0,0)]),new THREE.LineBasicMaterial({color:p.c,transparent:true,opacity:.22})); scene.add(line);
+    }
+
+    const panel=document.querySelector('#panel'), title=document.querySelector('#ptitle'), text=document.querySelector('#ptext'), link=document.querySelector('#plink');
+    function openProject(p){title.textContent=p.name;text.textContent=p.text;link.href=p.url;panel.classList.add('open')}
+    document.querySelector('.close').onclick=()=>panel.classList.remove('open');
+    renderer.domElement.addEventListener('pointerdown',e=>{mouse.x=e.clientX/innerWidth*2-1;mouse.y=-(e.clientY/innerHeight)*2+1;ray.setFromCamera(mouse,camera);const hit=ray.intersectObjects(nodes.flatMap(n=>n.children).filter(o=>o.isMesh))[0];if(hit)openProject(hit.object.parent.userData)});
+    addEventListener('resize',()=>{camera.aspect=innerWidth/innerHeight;camera.updateProjectionMatrix();renderer.setSize(innerWidth,innerHeight);renderer.setPixelRatio(Math.min(devicePixelRatio,1.75))});
+    const clock=new THREE.Clock();
+    function animate(){requestAnimationFrame(animate);const t=clock.getElapsedTime();core.rotation.x=t*.055;core.rotation.y=t*.08;inner.rotation.x=-t*.07;inner.rotation.z=t*.05;stars.rotation.y=t*.003;nodes.forEach((n,i)=>{n.position.y=projects[i].p[1]+Math.sin(t*.8+i)*.12;n.rotation.z=t*.2});controls.update();renderer.render(scene,camera)} animate();
+  </script>
+</body>
+</html>
