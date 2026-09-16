@@ -9,6 +9,7 @@
 [![GitHub](https://img.shields.io/badge/GitHub-Rahulchaube1-181717?style=flat-square&logo=github)](https://github.com/Rahulchaube1)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rahul-chaube-2520b21b7/)
 [![Profile Views](https://komarev.com/ghpvc/?username=Rahulchaube1&style=flat-square&color=0969DA)](https://github.com/Rahulchaube1)
+[![Neuroblyx NCC](https://img.shields.io/badge/Neuroblyx-NCC-orange.svg?logo=data:image%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BCjxwYXRoIGZpbGw9IiNmZjY5MDAiIGQ9Ik0xMi41NSAxLjQ1QTEwLjU1IDEwLjU1IDAgMCAwIDIuMDUgMTJhMTAuNTUgMTAuNTUgMCAwIDAgMTAuNSAxMC41NWwxLjEtMy43NUE2LjY1IDYuNjUgMCAwIDEgNS45NSAxMmE2LjY1IDYuNjUgMCAwIDEgNy43LTYuNTV6Ii8%2BCjxwYXRoIGZpbGw9IiMzZjNmM2YiIGQ9Ik0xMy45NSAxLjQ1bC0xLjQgNEE2LjY1IDYuNjUgMCAwIDEgMTguMDUgMTJhNi42NSA2LjY1IDAgMCAxLTUuNSA2LjU1bC0xLjEgNEExMC41NSAxMC41NSAwIDAgMCAyMS45NSAxMiAxMC41NSAxMC41NSAwIDAgMCAxMy45NSAxLjQ1eiIvPgo8cGF0aCBmaWxsPSIjM2YzZjNmIiBkPSJNOS4yNSA3LjJoMi4wNWw0LjE1IDMuNVY3LjJoMi4xdjkuNmgtMi4wNWwtNC4xNS0zLjV2My41aC0yLjF6Ii8%2BCjxwYXRoIGZpbGw9IiNmZmYiIGQ9Ik0xMi43NSAxLjQ1bDEuMjUgMy45NS0xLjI1IDEuMTUtMS4yNS0zLjk1ek0xMi43NSAxNy40NWwxLjI1LTEuMTUgMS4yNSA0LTEuMjUgMS4yNXoiLz4KPC9zdmc%2B)](https://www.neuroblyx.com/ncc)
 
 **[✦ Enter the interactive Three.js profile](./3d-profile/index.html)**
 
