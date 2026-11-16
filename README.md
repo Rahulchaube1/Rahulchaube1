@@ -1,27 +1,100 @@
-# Rahul Chaube
+<p align="center">
+  <img src="./assets/pixel-developer-header.svg" alt="Rahul Chaube — building open-source software across AI, systems, and developer tools" width="100%" />
+</p>
 
-I build open-source software across AI, systems programming, and developer tools.
+<p align="center">
+  <a href="#selected-work">Selected work</a> ·
+  <a href="#engineering-focus">Engineering focus</a> ·
+  <a href="https://github.com/Rahulchaube1?tab=repositories">Repositories</a> ·
+  <a href="https://www.linkedin.com/in/rahul-chaube-2520b21b7/">LinkedIn</a>
+</p>
 
-My interests include reliable AI agents, programming language design, and interactive applications. I like projects where the implementation is open to inspection and the results can be reproduced.
+## About
+
+I'm Rahul. I build open-source software across **AI, systems programming, and developer tools**.
+
+My work ranges from an experimental language compiler to evidence-grounded agent prototypes and interactive 3D applications. I'm interested in the details that make an idea worth using: clear behavior, useful interfaces, and reproducible experiments.
 
 ## Selected work
 
-- **[Blyx](https://github.com/Rahulchaube1/blyxxxx)**  
-  An experimental systems programming language exploring AI-oriented computation. The compiler is written in Rust; native code generation is still in development.
+<table>
+<tr>
+<td width="50%" valign="top">
 
-- **[GuardedDesk](https://github.com/Rahulchaube1/GuardedDesk)**  
-  A prototype for evidence-grounded return eligibility agents, with synthetic scenarios, strict trajectory scoring, and audit traces.
+### ▸ Blyx
+**LANGUAGES / SYSTEMS**
 
-- **[AR Studio](https://github.com/Rahulchaube1/AR)**  
-  A browser-based drawing and 3D creation workspace built with React, Three.js, and MediaPipe hand tracking.
+An experimental systems programming language exploring AI-oriented computation.
 
-- **[MapNepal](https://github.com/Rahulchaube1/mapnepal)**  
-  A mapping application for Nepal, with terrain, landmarks, and trekking routes. Built with MapLibre and a Node.js/Express backend.
+Rust compiler · Language design · BIR/SSA
 
-## Approach
+**Status:** Experimental alpha. Native code generation is still in development.
 
-Build small, make the behavior testable, and document what works as clearly as what is still experimental.
+[Explore the repository →](https://github.com/Rahulchaube1/blyxxxx)
 
-I'm interested in collaborating on AI tooling, compilers, and open-source infrastructure. Issues, technical feedback, and focused contributions are welcome in the repositories above.
+</td>
+<td width="50%" valign="top">
 
-[LinkedIn](https://www.linkedin.com/in/rahul-chaube-2520b21b7/) · [All repositories](https://github.com/Rahulchaube1?tab=repositories)
+### ▸ GuardedDesk
+**AI / AGENT EVALUATION**
+
+An evidence-grounded return eligibility agent prototype with synthetic scenarios, strict trajectory scoring, and audit traces.
+
+Python · Evaluation harness · Agent traces
+
+**Status:** Prototype. A testbed for inspecting agent behavior, not a production refund system.
+
+[Explore the repository →](https://github.com/Rahulchaube1/GuardedDesk)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### ▸ AR Studio
+**INTERACTION / CREATIVE TOOLS**
+
+A browser-based drawing and 3D creation workspace with hand-tracked interaction.
+
+React · Three.js · MediaPipe
+
+[Explore the repository →](https://github.com/Rahulchaube1/AR)
+
+</td>
+<td width="50%" valign="top">
+
+### ▸ MapNepal
+**MAPS / WEB APPLICATIONS**
+
+A mapping application for exploring Nepal through terrain, landmarks, and trekking routes.
+
+MapLibre · Node.js · Express
+
+[Explore the repository →](https://github.com/Rahulchaube1/mapnepal)
+
+</td>
+</tr>
+</table>
+
+## Engineering focus
+
+```text
+01  AI & agents       Evidence, evaluation, inspectable behavior
+02  Languages         Compilers, intermediate representations, tooling
+03  Interfaces        Interactive graphics, spatial tools, useful workflows
+04  Open source       Clear documentation, focused changes, reproducible work
+```
+
+## How I build
+
+**Start with a useful problem. Make the behavior testable. Document the limits.**
+
+I prefer showing the implementation to making big claims. Technical feedback, bug reports, and focused contributions are welcome in the repositories above.
+
+---
+
+<p align="center">
+  <code>IDEA → CODE → EXPERIMENT → IMPROVE</code><br /><br />
+  <a href="https://www.linkedin.com/in/rahul-chaube-2520b21b7/">Connect on LinkedIn</a> ·
+  <a href="https://github.com/Rahulchaube1?tab=repositories">Explore my work</a>
+</p>
