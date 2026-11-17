@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/2/24/Artificial_Neural_Network.gif" width="100%" alt="An artificial neural network with interconnected layers of neurons." />
+  <img src="./assets/profile-editorial-hero.svg" width="100%" alt="Rahul Chaube — AI, machine learning, and open-source systems. Animated neural-network diagram." />
 </p>
 
 <p align="center">
@@ -31,5 +31,3 @@ I build open-source software at the intersection of AI, systems programming, and
 I care about clear behavior, reproducible experiments, and honest documentation of work in progress.
 
 </details>
-
-<sub>Visual: <a href="https://commons.wikimedia.org/wiki/File:Artificial_Neural_Network.gif">Artificial Neural Network</a> by Cecbur · <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</a> · unmodified.</sub>
