@@ -1,0 +1,903 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="360" viewBox="0 0 1080 360" role="img" aria-labelledby="drive-title drive-desc">
+<title id="drive-title">Commit to the drive — Rahul Chaube</title>
+<desc id="drive-desc">A detailed blue sports car reveals a neon violet, pink and warm orange grid from left to right, with soft tire smoke and a playful drift. This is an original decorative animation, not a visualization of contribution statistics. With reduced motion, the fully colored board and parked car remain still.</desc>
+<defs>
+<rect id="cell" width="13" height="13" rx="2"/>
+<clipPath id="canvas"><rect x="1" y="1" width="1078" height="358" rx="15"/></clipPath>
+<clipPath id="reveal"><rect class="reveal-mask" x="64" y="119" width="949" height="135"/></clipPath>
+<linearGradient id="body-paint" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#a5d5ff"/><stop offset=".23" stop-color="#75b6ff"/><stop offset=".6" stop-color="#4479e8"/><stop offset="1" stop-color="#243e87"/></linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#132442"/><stop offset=".55" stop-color="#203d60"/><stop offset="1" stop-color="#71a3c4"/></linearGradient>
+<linearGradient id="beam"><stop stop-color="#c4dfff" stop-opacity=".12"/><stop offset="1" stop-color="#c4dfff" stop-opacity="0"/></linearGradient>
+<radialGradient id="board-halo"><stop stop-color="#8746b0" stop-opacity=".09"/><stop offset="1" stop-color="#8746b0" stop-opacity="0"/></radialGradient>
+<filter id="soft-smoke" x="-45%" y="-100%" width="200%" height="300%"><feGaussianBlur stdDeviation="3.5"/></filter>
+</defs>
+<style>
+.car{transform:translate(1000px,186px);transform-origin:0 0;transform-box:view-box}
+.reveal-mask{transform-origin:64px 0;transform-box:view-box}
+.smoke{opacity:0}.skid{opacity:.5}.donut{opacity:.4}
+@media(prefers-reduced-motion:no-preference){
+ .car{animation:drive 14s linear infinite,car-fade 14s linear infinite}
+ .reveal-mask{animation:reveal 14s linear infinite}
+ .lit-grid{animation:board-fade 14s linear infinite}
+ .skid{animation:board-fade 14s linear infinite}
+ .donut{animation:donut-ink 14s linear infinite}
+ .smoke{opacity:1;animation:smoke-breathe 1.4s ease-in-out infinite alternate}
+}
+@keyframes reveal{0%{transform:scaleX(.026)}3%{transform:scaleX(.042)}12%{transform:scaleX(.169)}23%{transform:scaleX(.319)}34%{transform:scaleX(.453)}37%,57%{transform:scaleX(.524)}61%{transform:scaleX(.535)}72%{transform:scaleX(.681)}85%{transform:scaleX(.855)}95%,100%{transform:scaleX(1)}}
+@keyframes car-fade{0%{opacity:0}3%,94%{opacity:1}100%{opacity:0}}
+@keyframes board-fade{0%{opacity:0}3%,94%{opacity:1}100%{opacity:0}}
+@keyframes donut-ink{0%,37%{stroke-dashoffset:240;opacity:0}39%{opacity:.42}57%,94%{stroke-dashoffset:0;opacity:.42}100%{stroke-dashoffset:0;opacity:0}}
+@keyframes smoke-breathe{from{opacity:.7;transform:translate(2px,-1px) scale(.94)}to{opacity:1;transform:translate(-5px,1px) scale(1.04)}}
+@keyframes drive{0.000%{transform:translate(89.00px,186.00px) rotate(0.00deg)}3.000%{transform:translate(104.00px,186.00px) rotate(-3.00deg)}12.000%{transform:translate(224.00px,188.00px) rotate(3.00deg)}23.000%{transform:translate(366.00px,183.00px) rotate(-4.00deg)}34.000%{transform:translate(494.00px,186.00px) rotate(0.00deg)}37.000%{transform:translate(530.00px,156.00px) rotate(0.00deg)}37.625%{transform:translate(535.85px,156.58px) rotate(12.62deg)}38.250%{transform:translate(541.48px,158.28px) rotate(25.23deg)}38.875%{transform:translate(546.67px,161.06px) rotate(37.81deg)}39.500%{transform:translate(551.21px,164.79px) rotate(50.36deg)}40.125%{transform:translate(554.94px,169.33px) rotate(62.85deg)}40.750%{transform:translate(557.72px,174.52px) rotate(75.28deg)}41.375%{transform:translate(559.42px,180.15px) rotate(87.63deg)}42.000%{transform:translate(560.00px,186.00px) rotate(99.90deg)}42.625%{transform:translate(559.42px,191.85px) rotate(112.07deg)}43.250%{transform:translate(557.72px,197.48px) rotate(124.14deg)}43.875%{transform:translate(554.94px,202.67px) rotate(136.10deg)}44.500%{transform:translate(551.21px,207.21px) rotate(147.93deg)}45.125%{transform:translate(546.67px,210.94px) rotate(159.65deg)}45.750%{transform:translate(541.48px,213.72px) rotate(171.23deg)}46.375%{transform:translate(535.85px,215.42px) rotate(182.68deg)}47.000%{transform:translate(530.00px,216.00px) rotate(194.00deg)}47.625%{transform:translate(524.15px,215.42px) rotate(205.18deg)}48.250%{transform:translate(518.52px,213.72px) rotate(216.23deg)}48.875%{transform:translate(513.33px,210.94px) rotate(227.15deg)}49.500%{transform:translate(508.79px,207.21px) rotate(237.93deg)}50.125%{transform:translate(505.06px,202.67px) rotate(248.60deg)}50.750%{transform:translate(502.28px,197.48px) rotate(259.14deg)}51.375%{transform:translate(500.58px,191.85px) rotate(269.57deg)}52.000%{transform:translate(500.00px,186.00px) rotate(279.90deg)}52.625%{transform:translate(500.58px,180.15px) rotate(290.13deg)}53.250%{transform:translate(502.28px,174.52px) rotate(300.28deg)}53.875%{transform:translate(505.06px,169.33px) rotate(310.35deg)}54.500%{transform:translate(508.79px,164.79px) rotate(320.36deg)}55.125%{transform:translate(513.33px,161.06px) rotate(330.31deg)}55.750%{transform:translate(518.52px,158.28px) rotate(340.23deg)}56.375%{transform:translate(524.15px,156.58px) rotate(350.12deg)}57.000%{transform:translate(530.00px,156.00px) rotate(360.00deg)}61.000%{transform:translate(571.00px,186.00px) rotate(360.00deg)}72.000%{transform:translate(710.00px,189.00px) rotate(356.00deg)}85.000%{transform:translate(875.00px,184.00px) rotate(363.00deg)}95.000%{transform:translate(1000.00px,186.00px) rotate(360.00deg)}100.000%{transform:translate(1032.00px,186.00px) rotate(360.00deg)}}</style>
+<rect x="0.5" y="0.5" width="1079" height="359" fill="#100d19" rx="15" stroke="#302439"/>
+<g clip-path="url(#canvas)">
+<ellipse cx="520" cy="185" rx="520" ry="150" fill="url(#board-halo)"/>
+<g font-family="ui-monospace,SFMono-Regular,Consolas,Liberation Mono,monospace">
+<text x="34" y="43" font-size="21" fill="#eee7f4" font-weight="700" letter-spacing="-.7">COMMIT TO THE DRIVE</text>
+<text x="1046" y="41" font-size="12" fill="#a89ab7" text-anchor="end">@Rahulchaube1</text>
+</g>
+<g fill="#241a30" stroke="#34243e" stroke-width=".6">
+<use href="#cell" x="64" y="126"/>
+<use href="#cell" x="64" y="144"/>
+<use href="#cell" x="64" y="162"/>
+<use href="#cell" x="64" y="180"/>
+<use href="#cell" x="64" y="198"/>
+<use href="#cell" x="64" y="216"/>
+<use href="#cell" x="64" y="234"/>
+<use href="#cell" x="82" y="126"/>
+<use href="#cell" x="82" y="144"/>
+<use href="#cell" x="82" y="162"/>
+<use href="#cell" x="82" y="180"/>
+<use href="#cell" x="82" y="198"/>
+<use href="#cell" x="82" y="216"/>
+<use href="#cell" x="82" y="234"/>
+<use href="#cell" x="100" y="126"/>
+<use href="#cell" x="100" y="144"/>
+<use href="#cell" x="100" y="162"/>
+<use href="#cell" x="100" y="180"/>
+<use href="#cell" x="100" y="198"/>
+<use href="#cell" x="100" y="216"/>
+<use href="#cell" x="100" y="234"/>
+<use href="#cell" x="118" y="126"/>
+<use href="#cell" x="118" y="144"/>
+<use href="#cell" x="118" y="162"/>
+<use href="#cell" x="118" y="180"/>
+<use href="#cell" x="118" y="198"/>
+<use href="#cell" x="118" y="216"/>
+<use href="#cell" x="118" y="234"/>
+<use href="#cell" x="136" y="126"/>
+<use href="#cell" x="136" y="144"/>
+<use href="#cell" x="136" y="162"/>
+<use href="#cell" x="136" y="180"/>
+<use href="#cell" x="136" y="198"/>
+<use href="#cell" x="136" y="216"/>
+<use href="#cell" x="136" y="234"/>
+<use href="#cell" x="154" y="126"/>
+<use href="#cell" x="154" y="144"/>
+<use href="#cell" x="154" y="162"/>
+<use href="#cell" x="154" y="180"/>
+<use href="#cell" x="154" y="198"/>
+<use href="#cell" x="154" y="216"/>
+<use href="#cell" x="154" y="234"/>
+<use href="#cell" x="172" y="126"/>
+<use href="#cell" x="172" y="144"/>
+<use href="#cell" x="172" y="162"/>
+<use href="#cell" x="172" y="180"/>
+<use href="#cell" x="172" y="198"/>
+<use href="#cell" x="172" y="216"/>
+<use href="#cell" x="172" y="234"/>
+<use href="#cell" x="190" y="126"/>
+<use href="#cell" x="190" y="144"/>
+<use href="#cell" x="190" y="162"/>
+<use href="#cell" x="190" y="180"/>
+<use href="#cell" x="190" y="198"/>
+<use href="#cell" x="190" y="216"/>
+<use href="#cell" x="190" y="234"/>
+<use href="#cell" x="208" y="126"/>
+<use href="#cell" x="208" y="144"/>
+<use href="#cell" x="208" y="162"/>
+<use href="#cell" x="208" y="180"/>
+<use href="#cell" x="208" y="198"/>
+<use href="#cell" x="208" y="216"/>
+<use href="#cell" x="208" y="234"/>
+<use href="#cell" x="226" y="126"/>
+<use href="#cell" x="226" y="144"/>
+<use href="#cell" x="226" y="162"/>
+<use href="#cell" x="226" y="180"/>
+<use href="#cell" x="226" y="198"/>
+<use href="#cell" x="226" y="216"/>
+<use href="#cell" x="226" y="234"/>
+<use href="#cell" x="244" y="126"/>
+<use href="#cell" x="244" y="144"/>
+<use href="#cell" x="244" y="162"/>
+<use href="#cell" x="244" y="180"/>
+<use href="#cell" x="244" y="198"/>
+<use href="#cell" x="244" y="216"/>
+<use href="#cell" x="244" y="234"/>
+<use href="#cell" x="262" y="126"/>
+<use href="#cell" x="262" y="144"/>
+<use href="#cell" x="262" y="162"/>
+<use href="#cell" x="262" y="180"/>
+<use href="#cell" x="262" y="198"/>
+<use href="#cell" x="262" y="216"/>
+<use href="#cell" x="262" y="234"/>
+<use href="#cell" x="280" y="126"/>
+<use href="#cell" x="280" y="144"/>
+<use href="#cell" x="280" y="162"/>
+<use href="#cell" x="280" y="180"/>
+<use href="#cell" x="280" y="198"/>
+<use href="#cell" x="280" y="216"/>
+<use href="#cell" x="280" y="234"/>
+<use href="#cell" x="298" y="126"/>
+<use href="#cell" x="298" y="144"/>
+<use href="#cell" x="298" y="162"/>
+<use href="#cell" x="298" y="180"/>
+<use href="#cell" x="298" y="198"/>
+<use href="#cell" x="298" y="216"/>
+<use href="#cell" x="298" y="234"/>
+<use href="#cell" x="316" y="126"/>
+<use href="#cell" x="316" y="144"/>
+<use href="#cell" x="316" y="162"/>
+<use href="#cell" x="316" y="180"/>
+<use href="#cell" x="316" y="198"/>
+<use href="#cell" x="316" y="216"/>
+<use href="#cell" x="316" y="234"/>
+<use href="#cell" x="334" y="126"/>
+<use href="#cell" x="334" y="144"/>
+<use href="#cell" x="334" y="162"/>
+<use href="#cell" x="334" y="180"/>
+<use href="#cell" x="334" y="198"/>
+<use href="#cell" x="334" y="216"/>
+<use href="#cell" x="334" y="234"/>
+<use href="#cell" x="352" y="126"/>
+<use href="#cell" x="352" y="144"/>
+<use href="#cell" x="352" y="162"/>
+<use href="#cell" x="352" y="180"/>
+<use href="#cell" x="352" y="198"/>
+<use href="#cell" x="352" y="216"/>
+<use href="#cell" x="352" y="234"/>
+<use href="#cell" x="370" y="126"/>
+<use href="#cell" x="370" y="144"/>
+<use href="#cell" x="370" y="162"/>
+<use href="#cell" x="370" y="180"/>
+<use href="#cell" x="370" y="198"/>
+<use href="#cell" x="370" y="216"/>
+<use href="#cell" x="370" y="234"/>
+<use href="#cell" x="388" y="126"/>
+<use href="#cell" x="388" y="144"/>
+<use href="#cell" x="388" y="162"/>
+<use href="#cell" x="388" y="180"/>
+<use href="#cell" x="388" y="198"/>
+<use href="#cell" x="388" y="216"/>
+<use href="#cell" x="388" y="234"/>
+<use href="#cell" x="406" y="126"/>
+<use href="#cell" x="406" y="144"/>
+<use href="#cell" x="406" y="162"/>
+<use href="#cell" x="406" y="180"/>
+<use href="#cell" x="406" y="198"/>
+<use href="#cell" x="406" y="216"/>
+<use href="#cell" x="406" y="234"/>
+<use href="#cell" x="424" y="126"/>
+<use href="#cell" x="424" y="144"/>
+<use href="#cell" x="424" y="162"/>
+<use href="#cell" x="424" y="180"/>
+<use href="#cell" x="424" y="198"/>
+<use href="#cell" x="424" y="216"/>
+<use href="#cell" x="424" y="234"/>
+<use href="#cell" x="442" y="126"/>
+<use href="#cell" x="442" y="144"/>
+<use href="#cell" x="442" y="162"/>
+<use href="#cell" x="442" y="180"/>
+<use href="#cell" x="442" y="198"/>
+<use href="#cell" x="442" y="216"/>
+<use href="#cell" x="442" y="234"/>
+<use href="#cell" x="460" y="126"/>
+<use href="#cell" x="460" y="144"/>
+<use href="#cell" x="460" y="162"/>
+<use href="#cell" x="460" y="180"/>
+<use href="#cell" x="460" y="198"/>
+<use href="#cell" x="460" y="216"/>
+<use href="#cell" x="460" y="234"/>
+<use href="#cell" x="478" y="126"/>
+<use href="#cell" x="478" y="144"/>
+<use href="#cell" x="478" y="162"/>
+<use href="#cell" x="478" y="180"/>
+<use href="#cell" x="478" y="198"/>
+<use href="#cell" x="478" y="216"/>
+<use href="#cell" x="478" y="234"/>
+<use href="#cell" x="496" y="126"/>
+<use href="#cell" x="496" y="144"/>
+<use href="#cell" x="496" y="162"/>
+<use href="#cell" x="496" y="180"/>
+<use href="#cell" x="496" y="198"/>
+<use href="#cell" x="496" y="216"/>
+<use href="#cell" x="496" y="234"/>
+<use href="#cell" x="514" y="126"/>
+<use href="#cell" x="514" y="144"/>
+<use href="#cell" x="514" y="162"/>
+<use href="#cell" x="514" y="180"/>
+<use href="#cell" x="514" y="198"/>
+<use href="#cell" x="514" y="216"/>
+<use href="#cell" x="514" y="234"/>
+<use href="#cell" x="532" y="126"/>
+<use href="#cell" x="532" y="144"/>
+<use href="#cell" x="532" y="162"/>
+<use href="#cell" x="532" y="180"/>
+<use href="#cell" x="532" y="198"/>
+<use href="#cell" x="532" y="216"/>
+<use href="#cell" x="532" y="234"/>
+<use href="#cell" x="550" y="126"/>
+<use href="#cell" x="550" y="144"/>
+<use href="#cell" x="550" y="162"/>
+<use href="#cell" x="550" y="180"/>
+<use href="#cell" x="550" y="198"/>
+<use href="#cell" x="550" y="216"/>
+<use href="#cell" x="550" y="234"/>
+<use href="#cell" x="568" y="126"/>
+<use href="#cell" x="568" y="144"/>
+<use href="#cell" x="568" y="162"/>
+<use href="#cell" x="568" y="180"/>
+<use href="#cell" x="568" y="198"/>
+<use href="#cell" x="568" y="216"/>
+<use href="#cell" x="568" y="234"/>
+<use href="#cell" x="586" y="126"/>
+<use href="#cell" x="586" y="144"/>
+<use href="#cell" x="586" y="162"/>
+<use href="#cell" x="586" y="180"/>
+<use href="#cell" x="586" y="198"/>
+<use href="#cell" x="586" y="216"/>
+<use href="#cell" x="586" y="234"/>
+<use href="#cell" x="604" y="126"/>
+<use href="#cell" x="604" y="144"/>
+<use href="#cell" x="604" y="162"/>
+<use href="#cell" x="604" y="180"/>
+<use href="#cell" x="604" y="198"/>
+<use href="#cell" x="604" y="216"/>
+<use href="#cell" x="604" y="234"/>
+<use href="#cell" x="622" y="126"/>
+<use href="#cell" x="622" y="144"/>
+<use href="#cell" x="622" y="162"/>
+<use href="#cell" x="622" y="180"/>
+<use href="#cell" x="622" y="198"/>
+<use href="#cell" x="622" y="216"/>
+<use href="#cell" x="622" y="234"/>
+<use href="#cell" x="640" y="126"/>
+<use href="#cell" x="640" y="144"/>
+<use href="#cell" x="640" y="162"/>
+<use href="#cell" x="640" y="180"/>
+<use href="#cell" x="640" y="198"/>
+<use href="#cell" x="640" y="216"/>
+<use href="#cell" x="640" y="234"/>
+<use href="#cell" x="658" y="126"/>
+<use href="#cell" x="658" y="144"/>
+<use href="#cell" x="658" y="162"/>
+<use href="#cell" x="658" y="180"/>
+<use href="#cell" x="658" y="198"/>
+<use href="#cell" x="658" y="216"/>
+<use href="#cell" x="658" y="234"/>
+<use href="#cell" x="676" y="126"/>
+<use href="#cell" x="676" y="144"/>
+<use href="#cell" x="676" y="162"/>
+<use href="#cell" x="676" y="180"/>
+<use href="#cell" x="676" y="198"/>
+<use href="#cell" x="676" y="216"/>
+<use href="#cell" x="676" y="234"/>
+<use href="#cell" x="694" y="126"/>
+<use href="#cell" x="694" y="144"/>
+<use href="#cell" x="694" y="162"/>
+<use href="#cell" x="694" y="180"/>
+<use href="#cell" x="694" y="198"/>
+<use href="#cell" x="694" y="216"/>
+<use href="#cell" x="694" y="234"/>
+<use href="#cell" x="712" y="126"/>
+<use href="#cell" x="712" y="144"/>
+<use href="#cell" x="712" y="162"/>
+<use href="#cell" x="712" y="180"/>
+<use href="#cell" x="712" y="198"/>
+<use href="#cell" x="712" y="216"/>
+<use href="#cell" x="712" y="234"/>
+<use href="#cell" x="730" y="126"/>
+<use href="#cell" x="730" y="144"/>
+<use href="#cell" x="730" y="162"/>
+<use href="#cell" x="730" y="180"/>
+<use href="#cell" x="730" y="198"/>
+<use href="#cell" x="730" y="216"/>
+<use href="#cell" x="730" y="234"/>
+<use href="#cell" x="748" y="126"/>
+<use href="#cell" x="748" y="144"/>
+<use href="#cell" x="748" y="162"/>
+<use href="#cell" x="748" y="180"/>
+<use href="#cell" x="748" y="198"/>
+<use href="#cell" x="748" y="216"/>
+<use href="#cell" x="748" y="234"/>
+<use href="#cell" x="766" y="126"/>
+<use href="#cell" x="766" y="144"/>
+<use href="#cell" x="766" y="162"/>
+<use href="#cell" x="766" y="180"/>
+<use href="#cell" x="766" y="198"/>
+<use href="#cell" x="766" y="216"/>
+<use href="#cell" x="766" y="234"/>
+<use href="#cell" x="784" y="126"/>
+<use href="#cell" x="784" y="144"/>
+<use href="#cell" x="784" y="162"/>
+<use href="#cell" x="784" y="180"/>
+<use href="#cell" x="784" y="198"/>
+<use href="#cell" x="784" y="216"/>
+<use href="#cell" x="784" y="234"/>
+<use href="#cell" x="802" y="126"/>
+<use href="#cell" x="802" y="144"/>
+<use href="#cell" x="802" y="162"/>
+<use href="#cell" x="802" y="180"/>
+<use href="#cell" x="802" y="198"/>
+<use href="#cell" x="802" y="216"/>
+<use href="#cell" x="802" y="234"/>
+<use href="#cell" x="820" y="126"/>
+<use href="#cell" x="820" y="144"/>
+<use href="#cell" x="820" y="162"/>
+<use href="#cell" x="820" y="180"/>
+<use href="#cell" x="820" y="198"/>
+<use href="#cell" x="820" y="216"/>
+<use href="#cell" x="820" y="234"/>
+<use href="#cell" x="838" y="126"/>
+<use href="#cell" x="838" y="144"/>
+<use href="#cell" x="838" y="162"/>
+<use href="#cell" x="838" y="180"/>
+<use href="#cell" x="838" y="198"/>
+<use href="#cell" x="838" y="216"/>
+<use href="#cell" x="838" y="234"/>
+<use href="#cell" x="856" y="126"/>
+<use href="#cell" x="856" y="144"/>
+<use href="#cell" x="856" y="162"/>
+<use href="#cell" x="856" y="180"/>
+<use href="#cell" x="856" y="198"/>
+<use href="#cell" x="856" y="216"/>
+<use href="#cell" x="856" y="234"/>
+<use href="#cell" x="874" y="126"/>
+<use href="#cell" x="874" y="144"/>
+<use href="#cell" x="874" y="162"/>
+<use href="#cell" x="874" y="180"/>
+<use href="#cell" x="874" y="198"/>
+<use href="#cell" x="874" y="216"/>
+<use href="#cell" x="874" y="234"/>
+<use href="#cell" x="892" y="126"/>
+<use href="#cell" x="892" y="144"/>
+<use href="#cell" x="892" y="162"/>
+<use href="#cell" x="892" y="180"/>
+<use href="#cell" x="892" y="198"/>
+<use href="#cell" x="892" y="216"/>
+<use href="#cell" x="892" y="234"/>
+<use href="#cell" x="910" y="126"/>
+<use href="#cell" x="910" y="144"/>
+<use href="#cell" x="910" y="162"/>
+<use href="#cell" x="910" y="180"/>
+<use href="#cell" x="910" y="198"/>
+<use href="#cell" x="910" y="216"/>
+<use href="#cell" x="910" y="234"/>
+<use href="#cell" x="928" y="126"/>
+<use href="#cell" x="928" y="144"/>
+<use href="#cell" x="928" y="162"/>
+<use href="#cell" x="928" y="180"/>
+<use href="#cell" x="928" y="198"/>
+<use href="#cell" x="928" y="216"/>
+<use href="#cell" x="928" y="234"/>
+<use href="#cell" x="946" y="126"/>
+<use href="#cell" x="946" y="144"/>
+<use href="#cell" x="946" y="162"/>
+<use href="#cell" x="946" y="180"/>
+<use href="#cell" x="946" y="198"/>
+<use href="#cell" x="946" y="216"/>
+<use href="#cell" x="946" y="234"/>
+<use href="#cell" x="964" y="126"/>
+<use href="#cell" x="964" y="144"/>
+<use href="#cell" x="964" y="162"/>
+<use href="#cell" x="964" y="180"/>
+<use href="#cell" x="964" y="198"/>
+<use href="#cell" x="964" y="216"/>
+<use href="#cell" x="964" y="234"/>
+<use href="#cell" x="982" y="126"/>
+<use href="#cell" x="982" y="144"/>
+<use href="#cell" x="982" y="162"/>
+<use href="#cell" x="982" y="180"/>
+<use href="#cell" x="982" y="198"/>
+<use href="#cell" x="982" y="216"/>
+<use href="#cell" x="982" y="234"/>
+<use href="#cell" x="1000" y="126"/>
+<use href="#cell" x="1000" y="144"/>
+<use href="#cell" x="1000" y="162"/>
+<use href="#cell" x="1000" y="180"/>
+<use href="#cell" x="1000" y="198"/>
+<use href="#cell" x="1000" y="216"/>
+<use href="#cell" x="1000" y="234"/>
+</g>
+<g class="lit-grid" clip-path="url(#reveal)">
+<use href="#cell" x="64" y="126" fill="#fc8d9d" opacity="0.78"/>
+<use href="#cell" x="64" y="144" fill="#dc5dcc" opacity="0.95"/>
+<use href="#cell" x="64" y="162" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="64" y="180" fill="#fc8d9d" opacity="0.92"/>
+<use href="#cell" x="64" y="198" fill="#fc8d9d" opacity="0.80"/>
+<use href="#cell" x="64" y="216" fill="#f272b3" opacity="0.79"/>
+<use href="#cell" x="64" y="234" fill="#c351e4" opacity="0.91"/>
+<use href="#cell" x="82" y="126" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="82" y="144" fill="#ffa883" opacity="0.77"/>
+<use href="#cell" x="82" y="162" fill="#ffa883" opacity="0.88"/>
+<path d="M85 164.5H92" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="82" y="180" fill="#7036c2" opacity="0.79"/>
+<use href="#cell" x="82" y="198" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="82" y="216" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="82" y="234" fill="#c351e4" opacity="0.81"/>
+<use href="#cell" x="100" y="126" fill="#dc5dcc" opacity="0.97"/>
+<use href="#cell" x="100" y="144" fill="#a74be8" opacity="0.99"/>
+<use href="#cell" x="100" y="162" fill="#a74be8" opacity="0.84"/>
+<use href="#cell" x="100" y="180" fill="#8b3fda" opacity="0.87"/>
+<use href="#cell" x="100" y="198" fill="#a74be8" opacity="0.93"/>
+<use href="#cell" x="100" y="216" fill="#8b3fda" opacity="0.77"/>
+<use href="#cell" x="100" y="234" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="118" y="126" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="118" y="144" fill="#c351e4" opacity="0.88"/>
+<use href="#cell" x="118" y="162" fill="#ffa883" opacity="0.95"/>
+<path d="M121 164.5H128" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="118" y="180" fill="#f272b3" opacity="0.92"/>
+<use href="#cell" x="118" y="198" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="118" y="216" fill="#dc5dcc" opacity="1.00"/>
+<use href="#cell" x="118" y="234" fill="#a74be8" opacity="1.00"/>
+<use href="#cell" x="136" y="126" fill="#fc8d9d" opacity="0.92"/>
+<use href="#cell" x="136" y="144" fill="#dc5dcc" opacity="0.74"/>
+<path d="M139 146.5H146" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="136" y="162" fill="#fc8d9d" opacity="0.89"/>
+<use href="#cell" x="136" y="180" fill="#dc5dcc" opacity="0.86"/>
+<path d="M139 182.5H146" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="136" y="198" fill="#a74be8" opacity="0.76"/>
+<use href="#cell" x="136" y="216" fill="#ffa883" opacity="0.76"/>
+<use href="#cell" x="136" y="234" fill="#c351e4" opacity="0.99"/>
+<use href="#cell" x="154" y="126" fill="#c351e4" opacity="0.99"/>
+<use href="#cell" x="154" y="144" fill="#c351e4" opacity="0.90"/>
+<use href="#cell" x="154" y="162" fill="#a74be8" opacity="0.94"/>
+<path d="M157 164.5H164" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="154" y="180" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="154" y="198" fill="#dc5dcc" opacity="0.86"/>
+<use href="#cell" x="154" y="216" fill="#7036c2" opacity="0.87"/>
+<use href="#cell" x="154" y="234" fill="#8b3fda" opacity="0.74"/>
+<use href="#cell" x="172" y="126" fill="#fc8d9d" opacity="0.80"/>
+<path d="M175 128.5H182" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="172" y="144" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="172" y="162" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="172" y="180" fill="#7036c2" opacity="0.89"/>
+<use href="#cell" x="172" y="198" fill="#8b3fda" opacity="0.78"/>
+<path d="M175 200.5H182" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="172" y="216" fill="#8b3fda" opacity="0.98"/>
+<use href="#cell" x="172" y="234" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="190" y="126" fill="#dc5dcc" opacity="0.75"/>
+<use href="#cell" x="190" y="144" fill="#a74be8" opacity="0.76"/>
+<use href="#cell" x="190" y="162" fill="#ffbf75" opacity="0.90"/>
+<use href="#cell" x="190" y="180" fill="#c351e4" opacity="0.81"/>
+<use href="#cell" x="190" y="198" fill="#ffbf75" opacity="0.82"/>
+<use href="#cell" x="190" y="216" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="190" y="234" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="208" y="126" fill="#ffbf75" opacity="0.80"/>
+<use href="#cell" x="208" y="144" fill="#dc5dcc" opacity="0.92"/>
+<use href="#cell" x="208" y="162" fill="#c351e4" opacity="0.81"/>
+<path d="M211 164.5H218" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="208" y="180" fill="#dc5dcc" opacity="0.93"/>
+<use href="#cell" x="208" y="198" fill="#8b3fda" opacity="0.86"/>
+<use href="#cell" x="208" y="216" fill="#f272b3" opacity="0.95"/>
+<use href="#cell" x="208" y="234" fill="#a74be8" opacity="0.90"/>
+<use href="#cell" x="226" y="126" fill="#8b3fda" opacity="0.98"/>
+<path d="M229 128.5H236" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="226" y="144" fill="#8b3fda" opacity="0.97"/>
+<use href="#cell" x="226" y="162" fill="#8b3fda" opacity="0.91"/>
+<path d="M229 164.5H236" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="226" y="180" fill="#c351e4" opacity="0.75"/>
+<path d="M229 182.5H236" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="226" y="198" fill="#fc8d9d" opacity="0.91"/>
+<use href="#cell" x="226" y="216" fill="#ffa883" opacity="0.78"/>
+<use href="#cell" x="226" y="234" fill="#ffbf75" opacity="0.89"/>
+<use href="#cell" x="244" y="126" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="244" y="144" fill="#7036c2" opacity="0.92"/>
+<use href="#cell" x="244" y="162" fill="#dc5dcc" opacity="0.84"/>
+<use href="#cell" x="244" y="180" fill="#f272b3" opacity="0.77"/>
+<use href="#cell" x="244" y="198" fill="#c351e4" opacity="0.74"/>
+<use href="#cell" x="244" y="216" fill="#a74be8" opacity="0.95"/>
+<use href="#cell" x="244" y="234" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="262" y="126" fill="#8b3fda" opacity="0.82"/>
+<use href="#cell" x="262" y="144" fill="#ffa883" opacity="0.99"/>
+<use href="#cell" x="262" y="162" fill="#8b3fda" opacity="0.77"/>
+<use href="#cell" x="262" y="180" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="262" y="198" fill="#fc8d9d" opacity="0.97"/>
+<use href="#cell" x="262" y="216" fill="#c351e4" opacity="0.99"/>
+<use href="#cell" x="262" y="234" fill="#7036c2" opacity="0.85"/>
+<use href="#cell" x="280" y="126" fill="#ffa883" opacity="0.92"/>
+<use href="#cell" x="280" y="144" fill="#f272b3" opacity="0.98"/>
+<path d="M283 146.5H290" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="280" y="162" fill="#fc8d9d" opacity="1.00"/>
+<use href="#cell" x="280" y="180" fill="#ffbf75" opacity="0.77"/>
+<path d="M283 182.5H290" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="280" y="198" fill="#7036c2" opacity="0.85"/>
+<use href="#cell" x="280" y="216" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="280" y="234" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="298" y="126" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="298" y="144" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="298" y="162" fill="#c351e4" opacity="0.75"/>
+<path d="M301 164.5H308" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="298" y="180" fill="#c351e4" opacity="0.78"/>
+<use href="#cell" x="298" y="198" fill="#fc8d9d" opacity="0.96"/>
+<use href="#cell" x="298" y="216" fill="#7036c2" opacity="0.97"/>
+<use href="#cell" x="298" y="234" fill="#a74be8" opacity="0.96"/>
+<use href="#cell" x="316" y="126" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="316" y="144" fill="#dc5dcc" opacity="0.80"/>
+<use href="#cell" x="316" y="162" fill="#c351e4" opacity="0.91"/>
+<use href="#cell" x="316" y="180" fill="#ffa883" opacity="0.83"/>
+<path d="M319 182.5H326" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="316" y="198" fill="#dc5dcc" opacity="0.80"/>
+<path d="M319 200.5H326" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="316" y="216" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="316" y="234" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="334" y="126" fill="#ffa883" opacity="0.76"/>
+<path d="M337 128.5H344" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="334" y="144" fill="#dc5dcc" opacity="0.79"/>
+<use href="#cell" x="334" y="162" fill="#dc5dcc" opacity="0.85"/>
+<use href="#cell" x="334" y="180" fill="#fc8d9d" opacity="0.98"/>
+<path d="M337 182.5H344" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="334" y="198" fill="#a74be8" opacity="0.74"/>
+<use href="#cell" x="334" y="216" fill="#fc8d9d" opacity="0.83"/>
+<use href="#cell" x="334" y="234" fill="#8b3fda" opacity="0.78"/>
+<use href="#cell" x="352" y="126" fill="#ffbf75" opacity="0.91"/>
+<use href="#cell" x="352" y="144" fill="#c351e4" opacity="0.94"/>
+<use href="#cell" x="352" y="162" fill="#c351e4" opacity="0.92"/>
+<path d="M355 164.5H362" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="352" y="180" fill="#f272b3" opacity="0.98"/>
+<use href="#cell" x="352" y="198" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="352" y="216" fill="#ffbf75" opacity="0.96"/>
+<use href="#cell" x="352" y="234" fill="#c351e4" opacity="0.79"/>
+<use href="#cell" x="370" y="126" fill="#a74be8" opacity="0.90"/>
+<path d="M373 128.5H380" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="370" y="144" fill="#ffbf75" opacity="0.96"/>
+<use href="#cell" x="370" y="162" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="370" y="180" fill="#a74be8" opacity="0.99"/>
+<path d="M373 182.5H380" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="370" y="198" fill="#dc5dcc" opacity="0.94"/>
+<path d="M373 200.5H380" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="370" y="216" fill="#8b3fda" opacity="0.81"/>
+<use href="#cell" x="370" y="234" fill="#c351e4" opacity="0.78"/>
+<use href="#cell" x="388" y="126" fill="#a74be8" opacity="0.94"/>
+<path d="M391 128.5H398" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="388" y="144" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="388" y="162" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="388" y="180" fill="#dc5dcc" opacity="0.77"/>
+<use href="#cell" x="388" y="198" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="388" y="216" fill="#fc8d9d" opacity="0.91"/>
+<path d="M391 218.5H398" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="388" y="234" fill="#dc5dcc" opacity="0.97"/>
+<use href="#cell" x="406" y="126" fill="#8b3fda" opacity="0.99"/>
+<use href="#cell" x="406" y="144" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="406" y="162" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="406" y="180" fill="#fc8d9d" opacity="0.84"/>
+<path d="M409 182.5H416" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="406" y="198" fill="#8b3fda" opacity="0.96"/>
+<use href="#cell" x="406" y="216" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="406" y="234" fill="#f272b3" opacity="0.94"/>
+<use href="#cell" x="424" y="126" fill="#a74be8" opacity="0.85"/>
+<use href="#cell" x="424" y="144" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="424" y="162" fill="#dc5dcc" opacity="0.74"/>
+<path d="M427 164.5H434" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="424" y="180" fill="#c351e4" opacity="0.98"/>
+<use href="#cell" x="424" y="198" fill="#8b3fda" opacity="0.84"/>
+<use href="#cell" x="424" y="216" fill="#f272b3" opacity="0.96"/>
+<use href="#cell" x="424" y="234" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="442" y="126" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="442" y="144" fill="#fc8d9d" opacity="0.90"/>
+<path d="M445 146.5H452" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="442" y="162" fill="#ffa883" opacity="0.76"/>
+<use href="#cell" x="442" y="180" fill="#8b3fda" opacity="0.81"/>
+<use href="#cell" x="442" y="198" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="442" y="216" fill="#ffbf75" opacity="0.75"/>
+<use href="#cell" x="442" y="234" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="460" y="126" fill="#f272b3" opacity="0.92"/>
+<use href="#cell" x="460" y="144" fill="#7036c2" opacity="0.78"/>
+<use href="#cell" x="460" y="162" fill="#f272b3" opacity="0.87"/>
+<path d="M463 164.5H470" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="460" y="180" fill="#dc5dcc" opacity="0.98"/>
+<path d="M463 182.5H470" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="460" y="198" fill="#8b3fda" opacity="0.92"/>
+<use href="#cell" x="460" y="216" fill="#8b3fda" opacity="0.87"/>
+<use href="#cell" x="460" y="234" fill="#a74be8" opacity="0.81"/>
+<use href="#cell" x="478" y="126" fill="#a74be8" opacity="0.99"/>
+<use href="#cell" x="478" y="144" fill="#dc5dcc" opacity="0.92"/>
+<use href="#cell" x="478" y="162" fill="#c351e4" opacity="0.80"/>
+<path d="M481 164.5H488" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="478" y="180" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="478" y="198" fill="#ffa883" opacity="0.86"/>
+<use href="#cell" x="478" y="216" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="478" y="234" fill="#c351e4" opacity="0.86"/>
+<use href="#cell" x="496" y="126" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="496" y="144" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="496" y="162" fill="#ffa883" opacity="0.74"/>
+<use href="#cell" x="496" y="180" fill="#dc5dcc" opacity="0.81"/>
+<use href="#cell" x="496" y="198" fill="#a74be8" opacity="0.91"/>
+<path d="M499 200.5H506" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="496" y="216" fill="#f272b3" opacity="0.83"/>
+<use href="#cell" x="496" y="234" fill="#ffa883" opacity="0.93"/>
+<path d="M499 236.5H506" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="514" y="126" fill="#8b3fda" opacity="0.91"/>
+<use href="#cell" x="514" y="144" fill="#ffa883" opacity="0.97"/>
+<use href="#cell" x="514" y="162" fill="#a74be8" opacity="0.80"/>
+<use href="#cell" x="514" y="180" fill="#8b3fda" opacity="0.89"/>
+<path d="M517 182.5H524" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="514" y="198" fill="#f272b3" opacity="0.76"/>
+<use href="#cell" x="514" y="216" fill="#8b3fda" opacity="0.93"/>
+<path d="M517 218.5H524" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="514" y="234" fill="#dc5dcc" opacity="0.94"/>
+<path d="M517 236.5H524" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="532" y="126" fill="#8b3fda" opacity="0.89"/>
+<use href="#cell" x="532" y="144" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="532" y="162" fill="#a74be8" opacity="0.80"/>
+<use href="#cell" x="532" y="180" fill="#a74be8" opacity="0.83"/>
+<use href="#cell" x="532" y="198" fill="#c351e4" opacity="0.88"/>
+<path d="M535 200.5H542" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="532" y="216" fill="#dc5dcc" opacity="0.76"/>
+<use href="#cell" x="532" y="234" fill="#fc8d9d" opacity="0.93"/>
+<use href="#cell" x="550" y="126" fill="#a74be8" opacity="0.97"/>
+<use href="#cell" x="550" y="144" fill="#c351e4" opacity="0.91"/>
+<use href="#cell" x="550" y="162" fill="#a74be8" opacity="0.82"/>
+<path d="M553 164.5H560" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="550" y="180" fill="#ffbf75" opacity="0.90"/>
+<path d="M553 182.5H560" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="550" y="198" fill="#fc8d9d" opacity="0.79"/>
+<use href="#cell" x="550" y="216" fill="#8b3fda" opacity="0.78"/>
+<use href="#cell" x="550" y="234" fill="#a74be8" opacity="0.93"/>
+<path d="M553 236.5H560" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="568" y="126" fill="#fc8d9d" opacity="0.75"/>
+<use href="#cell" x="568" y="144" fill="#8b3fda" opacity="0.85"/>
+<use href="#cell" x="568" y="162" fill="#c351e4" opacity="0.81"/>
+<path d="M571 164.5H578" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="568" y="180" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="568" y="198" fill="#c351e4" opacity="0.88"/>
+<use href="#cell" x="568" y="216" fill="#a74be8" opacity="0.89"/>
+<use href="#cell" x="568" y="234" fill="#dc5dcc" opacity="0.98"/>
+<path d="M571 236.5H578" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="586" y="126" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="586" y="144" fill="#fc8d9d" opacity="0.87"/>
+<use href="#cell" x="586" y="162" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="586" y="180" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="586" y="198" fill="#fc8d9d" opacity="0.87"/>
+<path d="M589 200.5H596" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="586" y="216" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="586" y="234" fill="#dc5dcc" opacity="0.88"/>
+<use href="#cell" x="604" y="126" fill="#f272b3" opacity="0.75"/>
+<path d="M607 128.5H614" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="604" y="144" fill="#fc8d9d" opacity="0.80"/>
+<use href="#cell" x="604" y="162" fill="#8b3fda" opacity="0.94"/>
+<path d="M607 164.5H614" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="604" y="180" fill="#ffa883" opacity="0.92"/>
+<use href="#cell" x="604" y="198" fill="#dc5dcc" opacity="0.85"/>
+<path d="M607 200.5H614" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="604" y="216" fill="#dc5dcc" opacity="0.76"/>
+<use href="#cell" x="604" y="234" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="622" y="126" fill="#dc5dcc" opacity="0.91"/>
+<use href="#cell" x="622" y="144" fill="#a74be8" opacity="1.00"/>
+<use href="#cell" x="622" y="162" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="622" y="180" fill="#c351e4" opacity="0.82"/>
+<path d="M625 182.5H632" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="622" y="198" fill="#dc5dcc" opacity="0.82"/>
+<use href="#cell" x="622" y="216" fill="#8b3fda" opacity="0.84"/>
+<use href="#cell" x="622" y="234" fill="#7036c2" opacity="0.75"/>
+<use href="#cell" x="640" y="126" fill="#a74be8" opacity="0.87"/>
+<use href="#cell" x="640" y="144" fill="#a74be8" opacity="0.81"/>
+<path d="M643 146.5H650" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="640" y="162" fill="#fc8d9d" opacity="0.74"/>
+<use href="#cell" x="640" y="180" fill="#c351e4" opacity="0.76"/>
+<path d="M643 182.5H650" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="640" y="198" fill="#a74be8" opacity="0.88"/>
+<use href="#cell" x="640" y="216" fill="#a74be8" opacity="0.78"/>
+<use href="#cell" x="640" y="234" fill="#a74be8" opacity="0.93"/>
+<use href="#cell" x="658" y="126" fill="#a74be8" opacity="0.93"/>
+<path d="M661 128.5H668" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="658" y="144" fill="#ffa883" opacity="0.77"/>
+<path d="M661 146.5H668" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="658" y="162" fill="#c351e4" opacity="0.75"/>
+<path d="M661 164.5H668" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="658" y="180" fill="#c351e4" opacity="0.81"/>
+<use href="#cell" x="658" y="198" fill="#ffbf75" opacity="0.76"/>
+<use href="#cell" x="658" y="216" fill="#8b3fda" opacity="0.93"/>
+<use href="#cell" x="658" y="234" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="676" y="126" fill="#a74be8" opacity="0.83"/>
+<path d="M679 128.5H686" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="676" y="144" fill="#8b3fda" opacity="0.91"/>
+<use href="#cell" x="676" y="162" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="676" y="180" fill="#a74be8" opacity="0.95"/>
+<use href="#cell" x="676" y="198" fill="#a74be8" opacity="0.90"/>
+<use href="#cell" x="676" y="216" fill="#dc5dcc" opacity="0.97"/>
+<use href="#cell" x="676" y="234" fill="#f272b3" opacity="0.98"/>
+<use href="#cell" x="694" y="126" fill="#f272b3" opacity="0.93"/>
+<use href="#cell" x="694" y="144" fill="#f272b3" opacity="0.96"/>
+<path d="M697 146.5H704" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="694" y="162" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="694" y="180" fill="#ffa883" opacity="0.91"/>
+<use href="#cell" x="694" y="198" fill="#a74be8" opacity="0.79"/>
+<use href="#cell" x="694" y="216" fill="#a74be8" opacity="0.93"/>
+<use href="#cell" x="694" y="234" fill="#f272b3" opacity="0.99"/>
+<use href="#cell" x="712" y="126" fill="#8b3fda" opacity="0.79"/>
+<use href="#cell" x="712" y="144" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="712" y="162" fill="#f272b3" opacity="0.98"/>
+<use href="#cell" x="712" y="180" fill="#a74be8" opacity="1.00"/>
+<use href="#cell" x="712" y="198" fill="#8b3fda" opacity="0.84"/>
+<use href="#cell" x="712" y="216" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="712" y="234" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="730" y="126" fill="#7036c2" opacity="0.79"/>
+<use href="#cell" x="730" y="144" fill="#c351e4" opacity="0.89"/>
+<use href="#cell" x="730" y="162" fill="#c351e4" opacity="0.74"/>
+<use href="#cell" x="730" y="180" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="730" y="198" fill="#c351e4" opacity="0.92"/>
+<use href="#cell" x="730" y="216" fill="#8b3fda" opacity="0.77"/>
+<use href="#cell" x="730" y="234" fill="#ffbf75" opacity="0.90"/>
+<path d="M733 236.5H740" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="748" y="126" fill="#dc5dcc" opacity="0.98"/>
+<use href="#cell" x="748" y="144" fill="#c351e4" opacity="0.93"/>
+<use href="#cell" x="748" y="162" fill="#c351e4" opacity="0.99"/>
+<use href="#cell" x="748" y="180" fill="#f272b3" opacity="0.97"/>
+<use href="#cell" x="748" y="198" fill="#fc8d9d" opacity="0.85"/>
+<path d="M751 200.5H758" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="748" y="216" fill="#8b3fda" opacity="1.00"/>
+<path d="M751 218.5H758" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="748" y="234" fill="#dc5dcc" opacity="0.83"/>
+<use href="#cell" x="766" y="126" fill="#dc5dcc" opacity="0.96"/>
+<use href="#cell" x="766" y="144" fill="#a74be8" opacity="0.96"/>
+<path d="M769 146.5H776" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="766" y="162" fill="#dc5dcc" opacity="0.90"/>
+<use href="#cell" x="766" y="180" fill="#dc5dcc" opacity="0.99"/>
+<use href="#cell" x="766" y="198" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="766" y="216" fill="#f272b3" opacity="0.81"/>
+<use href="#cell" x="766" y="234" fill="#c351e4" opacity="0.92"/>
+<path d="M769 236.5H776" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="784" y="126" fill="#dc5dcc" opacity="0.76"/>
+<use href="#cell" x="784" y="144" fill="#f272b3" opacity="0.91"/>
+<use href="#cell" x="784" y="162" fill="#c351e4" opacity="0.82"/>
+<path d="M787 164.5H794" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="784" y="180" fill="#f272b3" opacity="0.99"/>
+<use href="#cell" x="784" y="198" fill="#8b3fda" opacity="0.85"/>
+<use href="#cell" x="784" y="216" fill="#dc5dcc" opacity="0.96"/>
+<path d="M787 218.5H794" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="784" y="234" fill="#a74be8" opacity="0.77"/>
+<use href="#cell" x="802" y="126" fill="#ffbf75" opacity="0.74"/>
+<path d="M805 128.5H812" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="802" y="144" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="802" y="162" fill="#ffa883" opacity="0.75"/>
+<use href="#cell" x="802" y="180" fill="#ffa883" opacity="0.75"/>
+<use href="#cell" x="802" y="198" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="802" y="216" fill="#c351e4" opacity="0.99"/>
+<use href="#cell" x="802" y="234" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="820" y="126" fill="#8b3fda" opacity="0.79"/>
+<use href="#cell" x="820" y="144" fill="#f272b3" opacity="0.88"/>
+<use href="#cell" x="820" y="162" fill="#7036c2" opacity="0.81"/>
+<path d="M823 164.5H830" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="820" y="180" fill="#c351e4" opacity="0.95"/>
+<use href="#cell" x="820" y="198" fill="#dc5dcc" opacity="0.91"/>
+<use href="#cell" x="820" y="216" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="820" y="234" fill="#a74be8" opacity="0.79"/>
+<use href="#cell" x="838" y="126" fill="#f272b3" opacity="0.83"/>
+<use href="#cell" x="838" y="144" fill="#c351e4" opacity="0.80"/>
+<use href="#cell" x="838" y="162" fill="#a74be8" opacity="0.87"/>
+<path d="M841 164.5H848" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="838" y="180" fill="#f272b3" opacity="0.84"/>
+<use href="#cell" x="838" y="198" fill="#dc5dcc" opacity="0.95"/>
+<use href="#cell" x="838" y="216" fill="#a74be8" opacity="1.00"/>
+<use href="#cell" x="838" y="234" fill="#c351e4" opacity="0.80"/>
+<path d="M841 236.5H848" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="856" y="126" fill="#a74be8" opacity="0.94"/>
+<use href="#cell" x="856" y="144" fill="#dc5dcc" opacity="0.96"/>
+<use href="#cell" x="856" y="162" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="856" y="180" fill="#c351e4" opacity="0.91"/>
+<path d="M859 182.5H866" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="856" y="198" fill="#a74be8" opacity="0.84"/>
+<use href="#cell" x="856" y="216" fill="#a74be8" opacity="0.78"/>
+<path d="M859 218.5H866" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="856" y="234" fill="#fc8d9d" opacity="0.94"/>
+<use href="#cell" x="874" y="126" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="874" y="144" fill="#a74be8" opacity="0.99"/>
+<use href="#cell" x="874" y="162" fill="#a74be8" opacity="0.87"/>
+<use href="#cell" x="874" y="180" fill="#c351e4" opacity="0.97"/>
+<path d="M877 182.5H884" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="874" y="198" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="874" y="216" fill="#fc8d9d" opacity="0.80"/>
+<use href="#cell" x="874" y="234" fill="#8b3fda" opacity="0.93"/>
+<use href="#cell" x="892" y="126" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="892" y="144" fill="#a74be8" opacity="0.91"/>
+<use href="#cell" x="892" y="162" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="892" y="180" fill="#8b3fda" opacity="0.77"/>
+<use href="#cell" x="892" y="198" fill="#7036c2" opacity="0.83"/>
+<path d="M895 200.5H902" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="892" y="216" fill="#ffa883" opacity="0.75"/>
+<use href="#cell" x="892" y="234" fill="#dc5dcc" opacity="0.89"/>
+<use href="#cell" x="910" y="126" fill="#c351e4" opacity="0.82"/>
+<use href="#cell" x="910" y="144" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="910" y="162" fill="#ffcf7c" opacity="0.98"/>
+<path d="M913 164.5H920" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="910" y="180" fill="#f272b3" opacity="0.99"/>
+<use href="#cell" x="910" y="198" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="910" y="216" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="910" y="234" fill="#fc8d9d" opacity="0.98"/>
+<path d="M913 236.5H920" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="928" y="126" fill="#a74be8" opacity="0.92"/>
+<use href="#cell" x="928" y="144" fill="#c351e4" opacity="0.98"/>
+<use href="#cell" x="928" y="162" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="928" y="180" fill="#f272b3" opacity="0.96"/>
+<use href="#cell" x="928" y="198" fill="#fc8d9d" opacity="0.82"/>
+<path d="M931 200.5H938" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="928" y="216" fill="#8b3fda" opacity="0.78"/>
+<path d="M931 218.5H938" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="928" y="234" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="946" y="126" fill="#c351e4" opacity="0.94"/>
+<path d="M949 128.5H956" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="946" y="144" fill="#a74be8" opacity="0.82"/>
+<use href="#cell" x="946" y="162" fill="#a74be8" opacity="0.91"/>
+<path d="M949 164.5H956" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="946" y="180" fill="#a74be8" opacity="0.92"/>
+<use href="#cell" x="946" y="198" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="946" y="216" fill="#ffbf75" opacity="0.96"/>
+<use href="#cell" x="946" y="234" fill="#fc8d9d" opacity="0.78"/>
+<use href="#cell" x="964" y="126" fill="#dc5dcc" opacity="0.88"/>
+<use href="#cell" x="964" y="144" fill="#c351e4" opacity="0.98"/>
+<use href="#cell" x="964" y="162" fill="#8b3fda" opacity="0.74"/>
+<path d="M967 164.5H974" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="964" y="180" fill="#dc5dcc" opacity="0.97"/>
+<path d="M967 182.5H974" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="964" y="198" fill="#a74be8" opacity="0.82"/>
+<path d="M967 200.5H974" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="964" y="216" fill="#8b3fda" opacity="0.80"/>
+<use href="#cell" x="964" y="234" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="982" y="126" fill="#c351e4" opacity="0.84"/>
+<path d="M985 128.5H992" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="982" y="144" fill="#a74be8" opacity="0.98"/>
+<path d="M985 146.5H992" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="982" y="162" fill="#c351e4" opacity="0.76"/>
+<use href="#cell" x="982" y="180" fill="#a74be8" opacity="0.78"/>
+<use href="#cell" x="982" y="198" fill="#f272b3" opacity="0.76"/>
+<use href="#cell" x="982" y="216" fill="#a74be8" opacity="0.83"/>
+<use href="#cell" x="982" y="234" fill="#ffa883" opacity="0.78"/>
+<use href="#cell" x="1000" y="126" fill="#7036c2" opacity="0.88"/>
+<use href="#cell" x="1000" y="144" fill="#4b285e" opacity=".68"/>
+<use href="#cell" x="1000" y="162" fill="#f272b3" opacity="0.90"/>
+<path d="M1003 164.5H1010" stroke="#fff3ff" stroke-opacity=".13"/>
+<use href="#cell" x="1000" y="180" fill="#a74be8" opacity="0.87"/>
+<use href="#cell" x="1000" y="198" fill="#fc8d9d" opacity="0.91"/>
+<use href="#cell" x="1000" y="216" fill="#7036c2" opacity="0.78"/>
+<use href="#cell" x="1000" y="234" fill="#8b3fda" opacity="0.77"/>
+</g>
+<g clip-path="url(#reveal)" fill="none" stroke="#07050c" stroke-linecap="round">
+<g class="skid" stroke-width="4"><path d="M90 179C230 176 355 184 478 178S517 147 530 149M565 179C690 186 840 173 1000 179"/><path d="M90 197C230 194 355 202 478 196S517 165 530 167M565 197C690 204 840 191 1000 197"/></g>
+<g class="donut" stroke-width="5" stroke-dasharray="240" stroke-dashoffset="0"><circle cx="530" cy="186" r="37" transform="rotate(-90 530 186)"/><circle cx="530" cy="186" r="22" transform="rotate(-90 530 186)"/></g>
+</g>
+<g class="car" transform="translate(1000 186)">
+<g transform="scale(1.35)">
+<g class="smoke" filter="url(#soft-smoke)" fill="#b8b1c5">
+<ellipse cx="-35" cy="-10" rx="14" ry="6" opacity=".24"/><ellipse cx="-35" cy="10" rx="13" ry="6" opacity=".22"/><ellipse cx="-58" cy="-9" rx="22" ry="10" opacity=".13"/><ellipse cx="-62" cy="8" rx="22" ry="10" opacity=".11"/><ellipse cx="-86" cy="1" rx="29" ry="13" opacity=".06"/>
+</g>
+<path d="M29-10 81-25V-5L29-5ZM29 5 81 5V25L29 10Z" fill="url(#beam)"/>
+<rect x="-33" y="-10" width="66" height="28" fill="#03020a" rx="10" opacity=".5"/>
+<rect x="-24" y="-16" width="10" height="5" fill="#050711" rx="1.5"/>
+<rect x="-24" y="11" width="10" height="5" fill="#050711" rx="1.5"/>
+<rect x="-22" y="-15.5" width="6" height="1" fill="#7585a6" opacity=".6"/>
+<rect x="-22" y="14.5" width="6" height="1" fill="#7585a6" opacity=".55"/>
+<rect x="16" y="-16" width="10" height="5" fill="#050711" rx="1.5"/>
+<rect x="16" y="11" width="10" height="5" fill="#050711" rx="1.5"/>
+<rect x="18" y="-15.5" width="6" height="1" fill="#7585a6" opacity=".6"/>
+<rect x="18" y="14.5" width="6" height="1" fill="#7585a6" opacity=".55"/>
+<path d="M-26-13H17L27-9 32-4V4L27 9 17 13H-26L-31 8V-8Z" fill="url(#body-paint)" stroke="#88b3ff" stroke-width=".9"/>
+<path d="M6-10 15-8 18-5V5L15 8 6 10Z" fill="url(#glass)" stroke="#a4c6e8" stroke-width=".7"/>
+<path d="M8-8 13-7 15-4V4L13 7 12 7 12-3Z" fill="#b8dfff" opacity=".26"/>
+<path d="M-20-9-13-11V11L-20 9-22 5V-5Z" fill="#182b4c" stroke="#7fa4cc" stroke-width=".7"/>
+<rect x="-12" y="-10.5" width="17" height="21" fill="#6c9fe9" rx="2" stroke="#aacbff" stroke-width=".7"/>
+<rect x="-10" y="-8.5" width="13" height="1.5" fill="#bddbff" rx=".5" opacity=".65"/>
+<rect x="-10" y="7" width="13" height="1.2" fill="#244b93" opacity=".65"/>
+<path d="M19-7H25M19 7H25M22-4H28M22 4H28" stroke="#abcfff" stroke-width=".8" opacity=".55"/>
+<path d="M-25-11H-15M-25 11H-15" stroke="#c6e0ff" stroke-width="1.3" opacity=".75"/>
+<rect x="-29" y="-13" width="3.5" height="26" fill="#223862" rx=".6" stroke="#9abbef" stroke-width=".6"/>
+<rect x="-31" y="-9" width="2.2" height="5" fill="#ff776c" rx=".6"/>
+<rect x="-31" y="4" width="2.2" height="5" fill="#ff776c" rx=".6"/>
+<path d="M27-9 30-6V-3H27ZM27 3H30V6L27 9Z" fill="#e7f3ff"/>
+<rect x="30" y="-2" width="2" height="4" fill="#17243b" rx=".4"/>
+<rect x="8" y="-15" width="5" height="2.2" fill="#8ac5ff" rx=".7"/>
+<rect x="8" y="12.8" width="5" height="2.2" fill="#5d92e2" rx=".7"/>
+</g></g>
+<g font-family="ui-monospace,SFMono-Regular,Consolas,Liberation Mono,monospace">
+<text x="34" y="327" font-size="9" fill="#71627e" letter-spacing="1.5">A LITTLE DETOUR BETWEEN COMMITS.</text>
+</g></g></svg>

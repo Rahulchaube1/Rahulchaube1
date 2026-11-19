@@ -16,3 +16,11 @@
   <a href="https://github.com/Rahulchaube1?tab=repositories">Projects</a> &nbsp; / &nbsp;
   <a href="https://www.linkedin.com/in/rahul-chaube-2520b21b7/">LinkedIn</a>
 </p>
+
+<details open>
+  <summary>Contribution drive — show / hide animation</summary>
+  <br />
+  <p align="center">
+    <img src="./assets/contribution-drive.svg" width="100%" alt="A blue sports car drifts across a neon contribution-inspired grid, lighting up purple, pink, and orange squares behind it. Decorative animation." />
+  </p>
+</details>
